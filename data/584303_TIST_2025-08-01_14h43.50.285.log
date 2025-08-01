@@ -1,0 +1,643 @@
+10.6144 	WARNING 	Font Manager failed to load file /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc
+12.9565 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+12.9575 	INFO 	Loaded monitor calibration from ['2022_04_19 09:31']
+13.0985 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x17c3081f0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x17c308250>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x17c328670>, multiSample=False, name='window1', numSamples=2, pos=[560.0, 240.0], screen=0, size=array([1600, 1200]), stencilBits=8, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+13.0985 	EXP 	window1: backgroundImage = ''
+13.0985 	EXP 	window1: backgroundFit = 'none'
+13.1040 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.1044 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.1048 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.1053 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.1058 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.1060 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.1064 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.1069 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.1071 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.1072 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.1076 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.1080 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.1083 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.1087 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.1090 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.1094 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.1098 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.1100 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.1102 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.1108 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.1110 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.1111 	DEBUG 	Uploading Texture Font fontname to graphics card
+13.1138 	DEBUG 	Upload of Texture Font fontname complete
+13.1172 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.1178 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.1183 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.1184 	DEBUG 	Uploading Texture Font fontname to graphics card
+13.1199 	DEBUG 	Upload of Texture Font fontname complete
+13.1209 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+13.1210 	EXP 	window1: recordFrameIntervals = False
+13.2420 	EXP 	window1: recordFrameIntervals = True
+14.0760 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+14.0841 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.0846 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.0855 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.0867 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.0878 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.0889 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.0893 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.0902 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.0912 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.0921 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.0924 	DEBUG 	Uploading Texture Font fontname to graphics card
+14.0951 	DEBUG 	Upload of Texture Font fontname complete
+14.1090 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+16.0085 	INFO 	keyboard.Keyboard is using iohub backend.
+16.0085 	INFO 	keyboard.Keyboard is using iohub backend.
+16.0085 	INFO 	keyboard.Keyboard is using iohub backend.
+16.0086 	INFO 	keyboard.Keyboard is using iohub backend.
+16.0086 	INFO 	keyboard.Keyboard is using iohub backend.
+16.0086 	INFO 	keyboard.Keyboard is using iohub backend.
+16.0086 	INFO 	keyboard.Keyboard is using iohub backend.
+16.0086 	INFO 	keyboard.Keyboard is using iohub backend.
+16.0086 	INFO 	keyboard.Keyboard is using iohub backend.
+16.0086 	INFO 	keyboard.Keyboard is using iohub backend.
+16.0086 	INFO 	keyboard.Keyboard is using iohub backend.
+16.0087 	EXP 	TIST: status = STARTED
+16.0766 	EXP 	Created image_welcome = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='stimuli/welcome.png', interpolate=True, mask=None, maskParams=None, name='image_welcome', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.1  , 0.825]), texRes=128.0, units='height', win=Window(...))
+16.0876 	EXP 	Created text_refresh = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_refresh', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+16.1285 	EXP 	Created image_practice_instruct = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='stimuli/practice_instruct.png', interpolate=True, mask=None, maskParams=None, name='image_practice_instruct', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.1  , 0.825]), texRes=128.0, units='height', win=Window(...))
+16.1292 	EXP 	Created text_refresh = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_refresh', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+16.1400 	EXP 	Created text_fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Noto Sans SC', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='text_fixation', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+16.1428 	EXP 	Created image_block_practice = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_block_practice', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.36   , 0.41535]), texRes=128.0, units='height', win=Window(...))
+16.1433 	EXP 	Created text_refresh = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_refresh', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+16.1555 	EXP 	Created text_answer_block_practice = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Noto Sans SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_answer_block_practice', opacity=1, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='请按如下顺序输入答案（数字中间无间隔或任何字符）：\n\n快乐-平静-悲伤', units='height', win=Window(...), wrapWidth=1)
+16.1635 	EXP 	Created button_text_block_practice = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Noto Sans SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='button_text_block_practice', opacity=1, ori=0.0, pos=array([ 0.  , -0.35]), rgb=UNKNOWN, text='点击这里继续', units='height', win=Window(...), wrapWidth=1)
+16.1640 	EXP 	Created text_refresh = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_refresh', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+16.1643 	EXP 	Created text_feedback_block_practice = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Noto Sans SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_feedback_block_practice', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+16.1660 	EXP 	Created text_feedback_note_practice = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Noto Sans SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_feedback_note_practice', opacity=1, ori=0.0, pos=array([ 0.  , -0.25]), rgb=UNKNOWN, text='请按空格键继续', units='height', win=Window(...), wrapWidth=1)
+16.1664 	EXP 	Created text_refresh = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_refresh', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+16.2083 	EXP 	Created image_continue_check = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='stimuli/continue_check.png', interpolate=True, mask=None, maskParams=None, name='image_continue_check', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.1  , 0.825]), texRes=128.0, units='height', win=Window(...))
+16.2089 	EXP 	Created text_refresh = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_refresh', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+16.2513 	EXP 	Created image_primary_welcome = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='stimuli/welcome_primary.png', interpolate=True, mask=None, maskParams=None, name='image_primary_welcome', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.1  , 0.825]), texRes=128.0, units='height', win=Window(...))
+16.2519 	EXP 	Created text_refresh = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_refresh', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+16.2528 	EXP 	Created text_fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Noto Sans SC', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='text_fixation', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+16.2553 	EXP 	Created image_block = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_block', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.36   , 0.41535]), texRes=128.0, units='height', win=Window(...))
+16.2558 	EXP 	Created text_refresh = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_refresh', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+16.2572 	EXP 	Created text_answer_block = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Noto Sans SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_answer_block', opacity=1, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='请按如下顺序输入答案（数字中间无间隔或任何字符）：\n\n快乐-平静-悲伤', units='height', win=Window(...), wrapWidth=1)
+16.2631 	EXP 	Created button_answer_block = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Noto Sans SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='button_answer_block', opacity=1, ori=0.0, pos=array([ 0.  , -0.35]), rgb=UNKNOWN, text='点击这里继续', units='height', win=Window(...), wrapWidth=1)
+16.2635 	EXP 	Created text_refresh = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_refresh', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+16.2638 	EXP 	Created text_feedback_block = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Noto Sans SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_feedback_block', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+16.2647 	EXP 	Created text_feedback_block_note = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Noto Sans SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_feedback_block_note', opacity=1, ori=0.0, pos=array([ 0.  , -0.25]), rgb=UNKNOWN, text='请按空格键继续', units='height', win=Window(...), wrapWidth=1)
+16.2651 	EXP 	Created text_refresh = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_refresh', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+16.2656 	EXP 	Created text_continue_check_block = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Noto Sans SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_continue_check_block', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+16.2683 	EXP 	Created text_continue_prompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Noto Sans SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_continue_prompt', opacity=1, ori=0.0, pos=array([ 0.  , -0.25]), rgb=UNKNOWN, text='请按空格键继续。', units='height', win=Window(...), wrapWidth=1)
+16.2687 	EXP 	Created text_refresh = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_refresh', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+16.2733 	EXP 	Created text_goodbye = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Noto Sans SC', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_goodbye', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='测试结束。\n\n感谢您参与本测试，祝生活愉快！', units='height', win=Window(...), wrapWidth=1)
+0.0057 	EXP 	textbox_answer_block_practice: autoLog = True
+0.0057 	EXP 	textbox_answer_block: autoLog = True
+0.0161 	INFO 	Keyboard events cleared
+0.0158 	EXP 	image_welcome: autoDraw = True
+0.7394 	EXP 	image_welcome: autoDraw = False
+0.7394 	EXP 	text_refresh: autoDraw = True
+0.7488 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+0.7495 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+0.7498 	DEBUG 	Uploading Texture Font fontname to graphics card
+0.7534 	DEBUG 	Upload of Texture Font fontname complete
+0.7564 	DATA 	Keypress: space
+0.7611 	WARNING 	t of last frame was 21.67ms (=1/46)
+0.9363 	INFO 	Keyboard events cleared
+0.9361 	EXP 	text_refresh: autoDraw = False
+0.9361 	EXP 	text_refresh: autoDraw = False
+0.9361 	EXP 	image_practice_instruct: autoDraw = True
+1.5005 	DATA 	Keypress: space
+1.5200 	WARNING 	t of last frame was 29.43ms (=1/33)
+1.5200 	EXP 	image_practice_instruct: autoDraw = False
+1.5200 	EXP 	text_refresh: autoDraw = True
+1.7097 	DEBUG 	Read excel file with openpyxl: loop_block_practice.xlsx
+1.7098 	EXP 	Imported loop_block_practice.xlsx as conditions, 1 conditions, 2 params
+1.7109 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'block_practice_file': 'block_practice_1.xlsx', 'correct_answer': 688, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+1.7158 	EXP 	text_refresh: autoDraw = False
+1.7158 	EXP 	text_fixation: autoDraw = True
+2.7103 	DEBUG 	Read excel file with openpyxl: block_practice_1.xlsx
+2.7132 	EXP 	Imported block_practice_1.xlsx as conditions, 22 conditions, 10 params
+2.7135 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'stimuli_no': 1, 'stimulus': 'faces/HAM1.bmp', 'valence': 'happy', 'sex': 'male', 'switch_condition': 'begin', 'BI_condition': 'nonBI', 'minus1_valence': 'non', 'minus2_valence': 'non', 'switch_type': 'begin', 'BI_type': 'non', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+2.7189 	INFO 	Keyboard events cleared
+2.7187 	EXP 	text_fixation: autoDraw = False
+2.7187 	EXP 	image_block_practice: image = 'faces/HAM1.bmp'
+2.7187 	EXP 	image_block_practice: autoDraw = True
+3.1075 	DATA 	Keypress: space
+3.1104 	EXP 	image_block_practice: autoDraw = False
+3.1104 	EXP 	text_refresh: autoDraw = True
+3.3043 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'stimuli_no': 2, 'stimulus': 'faces/NEF6.bmp', 'valence': 'neutral', 'sex': 'female', 'switch_condition': 's', 'BI_condition': 'nonBI', 'minus1_valence': 'happy', 'minus2_valence': 'non', 'switch_type': 'hn', 'BI_type': 'hns1', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+3.3081 	INFO 	Keyboard events cleared
+3.3079 	EXP 	text_refresh: autoDraw = False
+3.3079 	EXP 	text_refresh: autoDraw = False
+3.3079 	EXP 	image_block_practice: image = 'faces/NEF6.bmp'
+3.3079 	EXP 	image_block_practice: autoDraw = True
+3.5487 	DATA 	Keypress: space
+3.5523 	EXP 	image_block_practice: autoDraw = False
+3.5523 	EXP 	text_refresh: autoDraw = True
+3.7378 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'stimuli_no': 3, 'stimulus': 'faces/SAF2.bmp', 'valence': 'sad', 'sex': 'female', 'switch_condition': 's', 'BI_condition': 'control', 'minus1_valence': 'neutral', 'minus2_valence': 'happy', 'switch_type': 'ns', 'BI_type': 'hns', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+3.7417 	INFO 	Keyboard events cleared
+3.7416 	EXP 	text_refresh: autoDraw = False
+3.7416 	EXP 	text_refresh: autoDraw = False
+3.7416 	EXP 	image_block_practice: image = 'faces/SAF2.bmp'
+3.7416 	EXP 	image_block_practice: autoDraw = True
+3.9909 	DATA 	Keypress: space
+3.9941 	EXP 	image_block_practice: autoDraw = False
+3.9941 	EXP 	text_refresh: autoDraw = True
+4.1877 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'stimuli_no': 4, 'stimulus': 'faces/SAF3.bmp', 'valence': 'sad', 'sex': 'female', 'switch_condition': 'ns', 'BI_condition': 'nonBI', 'minus1_valence': 'sad', 'minus2_valence': 'neutral', 'switch_type': 'ss', 'BI_type': 'non', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+4.1919 	INFO 	Keyboard events cleared
+4.1917 	EXP 	text_refresh: autoDraw = False
+4.1917 	EXP 	text_refresh: autoDraw = False
+4.1917 	EXP 	image_block_practice: image = 'faces/SAF3.bmp'
+4.1917 	EXP 	image_block_practice: autoDraw = True
+4.3913 	DATA 	Keypress: space
+4.3944 	EXP 	image_block_practice: autoDraw = False
+4.3944 	EXP 	text_refresh: autoDraw = True
+4.5879 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'stimuli_no': 5, 'stimulus': 'faces/SAM1.bmp', 'valence': 'sad', 'sex': 'male', 'switch_condition': 'ns', 'BI_condition': 'nonBI', 'minus1_valence': 'sad', 'minus2_valence': 'sad', 'switch_type': 'ss', 'BI_type': 'non', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+4.5924 	INFO 	Keyboard events cleared
+4.5922 	EXP 	text_refresh: autoDraw = False
+4.5922 	EXP 	text_refresh: autoDraw = False
+4.5922 	EXP 	image_block_practice: image = 'faces/SAM1.bmp'
+4.5922 	EXP 	image_block_practice: autoDraw = True
+4.8252 	EXP 	image_block_practice: autoDraw = False
+4.8252 	EXP 	text_refresh: autoDraw = True
+4.8285 	DATA 	Keypress: space
+5.0211 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'stimuli_no': 6, 'stimulus': 'faces/NEF9.bmp', 'valence': 'neutral', 'sex': 'female', 'switch_condition': 's', 'BI_condition': 'nonBI', 'minus1_valence': 'sad', 'minus2_valence': 'sad', 'switch_type': 'sn', 'BI_type': 'sns1', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+5.0272 	INFO 	Keyboard events cleared
+5.0270 	EXP 	text_refresh: autoDraw = False
+5.0270 	EXP 	text_refresh: autoDraw = False
+5.0270 	EXP 	image_block_practice: image = 'faces/NEF9.bmp'
+5.0270 	EXP 	image_block_practice: autoDraw = True
+5.2128 	DATA 	Keypress: space
+5.2195 	EXP 	image_block_practice: autoDraw = False
+5.2195 	EXP 	text_refresh: autoDraw = True
+5.4045 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'stimuli_no': 7, 'stimulus': 'faces/SAM6.bmp', 'valence': 'sad', 'sex': 'male', 'switch_condition': 's', 'BI_condition': 'BI', 'minus1_valence': 'neutral', 'minus2_valence': 'sad', 'switch_type': 'ns', 'BI_type': 'sns', 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+5.4215 	INFO 	Keyboard events cleared
+5.4213 	EXP 	text_refresh: autoDraw = False
+5.4213 	EXP 	text_refresh: autoDraw = False
+5.4213 	EXP 	image_block_practice: image = 'faces/SAM6.bmp'
+5.4213 	EXP 	image_block_practice: autoDraw = True
+5.6580 	DATA 	Keypress: space
+5.6611 	EXP 	image_block_practice: autoDraw = False
+5.6611 	EXP 	text_refresh: autoDraw = True
+5.8546 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'stimuli_no': 8, 'stimulus': 'faces/SAF3.bmp', 'valence': 'sad', 'sex': 'female', 'switch_condition': 'ns', 'BI_condition': 'nonBI', 'minus1_valence': 'sad', 'minus2_valence': 'neutral', 'switch_type': 'ss', 'BI_type': 'non', 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+5.8594 	INFO 	Keyboard events cleared
+5.8592 	EXP 	text_refresh: autoDraw = False
+5.8592 	EXP 	text_refresh: autoDraw = False
+5.8592 	EXP 	image_block_practice: image = 'faces/SAF3.bmp'
+5.8592 	EXP 	image_block_practice: autoDraw = True
+6.1076 	DATA 	Keypress: space
+6.1105 	EXP 	image_block_practice: autoDraw = False
+6.1105 	EXP 	text_refresh: autoDraw = True
+6.3046 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'stimuli_no': 9, 'stimulus': 'faces/NEM4.bmp', 'valence': 'neutral', 'sex': 'male', 'switch_condition': 's', 'BI_condition': 'nonBI', 'minus1_valence': 'sad', 'minus2_valence': 'sad', 'switch_type': 'sn', 'BI_type': 'snh1', 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+6.3084 	INFO 	Keyboard events cleared
+6.3082 	EXP 	text_refresh: autoDraw = False
+6.3082 	EXP 	text_refresh: autoDraw = False
+6.3082 	EXP 	image_block_practice: image = 'faces/NEM4.bmp'
+6.3082 	EXP 	image_block_practice: autoDraw = True
+6.5363 	EXP 	image_block_practice: autoDraw = False
+6.5363 	EXP 	text_refresh: autoDraw = True
+6.5442 	DATA 	Keypress: space
+6.7213 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'stimuli_no': 10, 'stimulus': 'faces/HAF59.bmp', 'valence': 'happy', 'sex': 'female', 'switch_condition': 's', 'BI_condition': 'control', 'minus1_valence': 'neutral', 'minus2_valence': 'sad', 'switch_type': 'nh', 'BI_type': 'snh', 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+6.7257 	INFO 	Keyboard events cleared
+6.7255 	EXP 	text_refresh: autoDraw = False
+6.7255 	EXP 	text_refresh: autoDraw = False
+6.7255 	EXP 	image_block_practice: image = 'faces/HAF59.bmp'
+6.7255 	EXP 	image_block_practice: autoDraw = True
+6.9244 	EXP 	image_block_practice: autoDraw = False
+6.9244 	EXP 	text_refresh: autoDraw = True
+6.9275 	DATA 	Keypress: space
+7.1211 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'stimuli_no': 11, 'stimulus': 'faces/HAF107.bmp', 'valence': 'happy', 'sex': 'female', 'switch_condition': 'ns', 'BI_condition': 'nonBI', 'minus1_valence': 'happy', 'minus2_valence': 'neutral', 'switch_type': 'hh', 'BI_type': 'non', 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+7.1332 	INFO 	Keyboard events cleared
+7.1330 	EXP 	text_refresh: autoDraw = False
+7.1330 	EXP 	text_refresh: autoDraw = False
+7.1330 	EXP 	image_block_practice: image = 'faces/HAF107.bmp'
+7.1330 	EXP 	image_block_practice: autoDraw = True
+7.1531 	WARNING 	t of last frame was 20.08ms (=1/49)
+7.3619 	DATA 	Keypress: space
+7.3699 	EXP 	image_block_practice: autoDraw = False
+7.3699 	EXP 	text_refresh: autoDraw = True
+7.5546 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'stimuli_no': 12, 'stimulus': 'faces/HAM9.bmp', 'valence': 'happy', 'sex': 'male', 'switch_condition': 'ns', 'BI_condition': 'nonBI', 'minus1_valence': 'happy', 'minus2_valence': 'happy', 'switch_type': 'hh', 'BI_type': 'non', 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+7.5588 	INFO 	Keyboard events cleared
+7.5586 	EXP 	text_refresh: autoDraw = False
+7.5586 	EXP 	text_refresh: autoDraw = False
+7.5586 	EXP 	image_block_practice: image = 'faces/HAM9.bmp'
+7.5586 	EXP 	image_block_practice: autoDraw = True
+7.7778 	DATA 	Keypress: space
+7.7865 	EXP 	image_block_practice: autoDraw = False
+7.7865 	EXP 	text_refresh: autoDraw = True
+7.9713 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'stimuli_no': 13, 'stimulus': 'faces/NEM5.bmp', 'valence': 'neutral', 'sex': 'male', 'switch_condition': 's', 'BI_condition': 'nonBI', 'minus1_valence': 'happy', 'minus2_valence': 'happy', 'switch_type': 'hn', 'BI_type': 'hnh1', 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+7.9763 	INFO 	Keyboard events cleared
+7.9761 	EXP 	text_refresh: autoDraw = False
+7.9761 	EXP 	text_refresh: autoDraw = False
+7.9761 	EXP 	image_block_practice: image = 'faces/NEM5.bmp'
+7.9761 	EXP 	image_block_practice: autoDraw = True
+8.2032 	EXP 	image_block_practice: autoDraw = False
+8.2032 	EXP 	text_refresh: autoDraw = True
+8.2068 	DATA 	Keypress: space
+8.3880 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'stimuli_no': 14, 'stimulus': 'faces/HAM38.bmp', 'valence': 'happy', 'sex': 'male', 'switch_condition': 's', 'BI_condition': 'BI', 'minus1_valence': 'neutral', 'minus2_valence': 'happy', 'switch_type': 'nh', 'BI_type': 'hnh', 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+8.3928 	INFO 	Keyboard events cleared
+8.3926 	EXP 	text_refresh: autoDraw = False
+8.3926 	EXP 	text_refresh: autoDraw = False
+8.3926 	EXP 	image_block_practice: image = 'faces/HAM38.bmp'
+8.3926 	EXP 	image_block_practice: autoDraw = True
+8.6077 	DATA 	Keypress: space
+8.6106 	EXP 	image_block_practice: autoDraw = False
+8.6106 	EXP 	text_refresh: autoDraw = True
+8.8049 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'stimuli_no': 15, 'stimulus': 'faces/HAF110.bmp', 'valence': 'happy', 'sex': 'female', 'switch_condition': 'ns', 'BI_condition': 'nonBI', 'minus1_valence': 'happy', 'minus2_valence': 'neutral', 'switch_type': 'hh', 'BI_type': 'non', 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+8.8169 	INFO 	Keyboard events cleared
+8.8167 	EXP 	text_refresh: autoDraw = False
+8.8167 	EXP 	text_refresh: autoDraw = False
+8.8167 	EXP 	image_block_practice: image = 'faces/HAF110.bmp'
+8.8167 	EXP 	image_block_practice: autoDraw = True
+9.0285 	EXP 	image_block_practice: autoDraw = False
+9.0285 	EXP 	text_refresh: autoDraw = True
+9.0316 	DATA 	Keypress: space
+9.2215 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'stimuli_no': 16, 'stimulus': 'faces/SAM7.bmp', 'valence': 'sad', 'sex': 'male', 'switch_condition': 's', 'BI_condition': 'nonBI', 'minus1_valence': 'happy', 'minus2_valence': 'happy', 'switch_type': 'hs', 'BI_type': 'hsn1', 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+9.2261 	INFO 	Keyboard events cleared
+9.2259 	EXP 	text_refresh: autoDraw = False
+9.2259 	EXP 	text_refresh: autoDraw = False
+9.2259 	EXP 	image_block_practice: image = 'faces/SAM7.bmp'
+9.2259 	EXP 	image_block_practice: autoDraw = True
+9.4280 	DATA 	Keypress: space
+9.4365 	EXP 	image_block_practice: autoDraw = False
+9.4365 	EXP 	text_refresh: autoDraw = True
+9.6215 	EXP 	New trial (rep=0, index=16): <Trial 16 (16 in rep 0) data={'stimuli_no': 17, 'stimulus': 'faces/NEF35.bmp', 'valence': 'neutral', 'sex': 'female', 'switch_condition': 's', 'BI_condition': 'control', 'minus1_valence': 'sad', 'minus2_valence': 'happy', 'switch_type': 'sn', 'BI_type': 'hsn', 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 0}>
+9.6259 	INFO 	Keyboard events cleared
+9.6257 	EXP 	text_refresh: autoDraw = False
+9.6257 	EXP 	text_refresh: autoDraw = False
+9.6257 	EXP 	image_block_practice: image = 'faces/NEF35.bmp'
+9.6257 	EXP 	image_block_practice: autoDraw = True
+9.8958 	DATA 	Keypress: space
+9.9032 	EXP 	image_block_practice: autoDraw = False
+9.9032 	EXP 	text_refresh: autoDraw = True
+10.0878 	EXP 	New trial (rep=0, index=17): <Trial 17 (17 in rep 0) data={'stimuli_no': 18, 'stimulus': 'faces/NEM6.bmp', 'valence': 'neutral', 'sex': 'male', 'switch_condition': 'ns', 'BI_condition': 'nonBI', 'minus1_valence': 'neutral', 'minus2_valence': 'sad', 'switch_type': 'nn', 'BI_type': 'non', 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 0}>
+10.0913 	INFO 	Keyboard events cleared
+10.0911 	EXP 	text_refresh: autoDraw = False
+10.0911 	EXP 	text_refresh: autoDraw = False
+10.0911 	EXP 	image_block_practice: image = 'faces/NEM6.bmp'
+10.0911 	EXP 	image_block_practice: autoDraw = True
+10.3462 	DATA 	Keypress: space
+10.3532 	EXP 	image_block_practice: autoDraw = False
+10.3532 	EXP 	text_refresh: autoDraw = True
+10.5382 	EXP 	New trial (rep=0, index=18): <Trial 18 (18 in rep 0) data={'stimuli_no': 19, 'stimulus': 'faces/SAF20.bmp', 'valence': 'sad', 'sex': 'female', 'switch_condition': 's', 'BI_condition': 'nonBI', 'minus1_valence': 'neutral', 'minus2_valence': 'neutral', 'switch_type': 'ns', 'BI_type': 'nsn1', 'thisN': 18, 'thisTrialN': 18, 'thisRepN': 0}>
+10.5492 	INFO 	Keyboard events cleared
+10.5491 	EXP 	text_refresh: autoDraw = False
+10.5491 	EXP 	text_refresh: autoDraw = False
+10.5491 	EXP 	image_block_practice: image = 'faces/SAF20.bmp'
+10.5491 	EXP 	image_block_practice: autoDraw = True
+10.7629 	DATA 	Keypress: space
+10.7700 	EXP 	image_block_practice: autoDraw = False
+10.7700 	EXP 	text_refresh: autoDraw = True
+10.9551 	EXP 	New trial (rep=0, index=19): <Trial 19 (19 in rep 0) data={'stimuli_no': 20, 'stimulus': 'faces/NEM15.bmp', 'valence': 'neutral', 'sex': 'male', 'switch_condition': 's', 'BI_condition': 'BI', 'minus1_valence': 'sad', 'minus2_valence': 'neutral', 'switch_type': 'sn', 'BI_type': 'nsn', 'thisN': 19, 'thisTrialN': 19, 'thisRepN': 0}>
+10.9595 	INFO 	Keyboard events cleared
+10.9593 	EXP 	text_refresh: autoDraw = False
+10.9593 	EXP 	text_refresh: autoDraw = False
+10.9593 	EXP 	image_block_practice: image = 'faces/NEM15.bmp'
+10.9593 	EXP 	image_block_practice: autoDraw = True
+11.2917 	DATA 	Keypress: space
+11.2949 	EXP 	image_block_practice: autoDraw = False
+11.2949 	EXP 	text_refresh: autoDraw = True
+11.4883 	EXP 	New trial (rep=0, index=20): <Trial 20 (20 in rep 0) data={'stimuli_no': 21, 'stimulus': 'faces/NEM59.bmp', 'valence': 'neutral', 'sex': 'male', 'switch_condition': 'ns', 'BI_condition': 'nonBI', 'minus1_valence': 'neutral', 'minus2_valence': 'sad', 'switch_type': 'nn', 'BI_type': 'non', 'thisN': 20, 'thisTrialN': 20, 'thisRepN': 0}>
+11.4922 	INFO 	Keyboard events cleared
+11.4921 	EXP 	text_refresh: autoDraw = False
+11.4921 	EXP 	text_refresh: autoDraw = False
+11.4921 	EXP 	image_block_practice: image = 'faces/NEM59.bmp'
+11.4921 	EXP 	image_block_practice: autoDraw = True
+11.7414 	DATA 	Keypress: space
+11.7444 	EXP 	image_block_practice: autoDraw = False
+11.7444 	EXP 	text_refresh: autoDraw = True
+11.9382 	EXP 	New trial (rep=0, index=21): <Trial 21 (21 in rep 0) data={'stimuli_no': 22, 'stimulus': 'faces/SAF32.bmp', 'valence': 'sad', 'sex': 'female', 'switch_condition': 's', 'BI_condition': 'nonBI', 'minus1_valence': 'neutral', 'minus2_valence': 'neutral', 'switch_type': 'ns', 'BI_type': 'non', 'thisN': 21, 'thisTrialN': 21, 'thisRepN': 0}>
+11.9491 	INFO 	Keyboard events cleared
+11.9490 	EXP 	text_refresh: autoDraw = False
+11.9490 	EXP 	text_refresh: autoDraw = False
+11.9490 	EXP 	image_block_practice: image = 'faces/SAF32.bmp'
+11.9490 	EXP 	image_block_practice: autoDraw = True
+12.2245 	DATA 	Keypress: space
+12.2271 	EXP 	image_block_practice: autoDraw = False
+12.2271 	EXP 	text_refresh: autoDraw = True
+12.4329 	EXP 	text_refresh: autoDraw = False
+12.4329 	EXP 	text_refresh: autoDraw = False
+12.4329 	EXP 	text_answer_block_practice: autoDraw = True
+12.4329 	EXP 	textbox_answer_block_practice: autoDraw = True
+12.4329 	EXP 	button_text_block_practice: autoDraw = True
+12.6967 	DATA 	Keypress: space
+13.3889 	DATA 	Keypress: space
+13.6055 	DATA 	Keypress: space
+14.5065 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.5066 	DEBUG 	Uploading Texture Font fontname to graphics card
+14.5088 	DEBUG 	Upload of Texture Font fontname complete
+14.5091 	DATA 	Keypress: 2
+14.6229 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.6230 	DEBUG 	Uploading Texture Font fontname to graphics card
+14.6252 	DEBUG 	Upload of Texture Font fontname complete
+14.6255 	DATA 	Keypress: 3
+14.7397 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7399 	DEBUG 	Uploading Texture Font fontname to graphics card
+14.7419 	DEBUG 	Upload of Texture Font fontname complete
+14.7422 	DATA 	Keypress: 1
+14.8901 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8903 	DEBUG 	Uploading Texture Font fontname to graphics card
+14.8924 	DEBUG 	Upload of Texture Font fontname complete
+14.8928 	DATA 	Keypress: 4
+15.1897 	DATA 	Keypress: 3
+15.2568 	DATA 	Keypress: 2
+15.4298 	DATA 	Keypress: 4
+15.5473 	DATA 	Keypress: 3
+15.7616 	DATA 	Keypress: 2
+15.8968 	DATA 	Keypress: 3
+15.9727 	DATA 	Keypress: 2
+15.9896 	DATA 	Keypress: 1
+16.2392 	DATA 	Keypress: 3
+16.8962 	DATA 	Keypress: backspace
+17.0764 	DATA 	Keypress: backspace
+17.2577 	DATA 	Keypress: backspace
+17.7975 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+17.7976 	DEBUG 	Uploading Texture Font fontname to graphics card
+17.7995 	DEBUG 	Upload of Texture Font fontname complete
+17.7999 	DATA 	Keypress: 5
+18.2245 	DATA 	Keypress: 3
+18.3956 	DATA 	Keypress: 4
+18.4623 	DATA 	Keypress: 1
+19.2734 	DATA 	Keypress: space
+21.2390 	DATA 	Mouse: Left button down, pos=(435,86)
+21.2441 	EXP 	text_answer_block_practice: autoDraw = False
+21.2441 	EXP 	textbox_answer_block_practice: autoDraw = False
+21.2441 	EXP 	button_text_block_practice: autoDraw = False
+21.2441 	EXP 	text_refresh: autoDraw = True
+21.3263 	DATA 	Mouse:  Left button up, pos=(435,86)
+21.4477 	INFO 	Keyboard events cleared
+21.4475 	EXP 	text_refresh: autoDraw = False
+21.4475 	EXP 	text_refresh: autoDraw = False
+21.4475 	EXP 	text_feedback_block_practice: height = 0.05
+21.4475 	EXP 	text_feedback_block_practice: height = 0.05
+21.4475 	EXP 	text_feedback_block_practice: height = 0.05
+21.4475 	EXP 	text_feedback_block_practice: text = '你答对了0种表情的面孔数目。'
+21.4475 	EXP 	text_feedback_block_practice: autoDraw = True
+21.4475 	EXP 	text_feedback_note_practice: autoDraw = True
+21.9042 	WARNING 	t of last frame was 20.35ms (=1/49)
+22.4256 	DATA 	Keypress: space
+22.4282 	EXP 	text_feedback_block_practice: autoDraw = False
+22.4282 	EXP 	text_feedback_note_practice: autoDraw = False
+22.4282 	EXP 	text_refresh: autoDraw = True
+22.6264 	INFO 	Keyboard events cleared
+22.6262 	EXP 	text_refresh: autoDraw = False
+22.6262 	EXP 	text_refresh: autoDraw = False
+22.6262 	EXP 	image_continue_check: autoDraw = True
+24.1087 	DATA 	Keypress: space
+24.1115 	EXP 	image_continue_check: autoDraw = False
+24.1115 	EXP 	text_refresh: autoDraw = True
+24.3093 	INFO 	Keyboard events cleared
+24.3091 	EXP 	text_refresh: autoDraw = False
+24.3091 	EXP 	text_refresh: autoDraw = False
+24.3091 	EXP 	image_primary_welcome: autoDraw = True
+25.2086 	DATA 	Keypress: space
+25.2110 	EXP 	image_primary_welcome: autoDraw = False
+25.2110 	EXP 	text_refresh: autoDraw = True
+25.4102 	DEBUG 	Read excel file with openpyxl: loop_block.xlsx
+25.4108 	EXP 	Imported loop_block.xlsx as conditions, 25 conditions, 2 params
+25.4111 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'block_file': 'block_1.xlsx', 'correct_answer': 685, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+25.4134 	EXP 	text_refresh: autoDraw = False
+25.4134 	EXP 	text_refresh: autoDraw = False
+25.4134 	EXP 	text_fixation: autoDraw = True
+26.4111 	DEBUG 	Read excel file with openpyxl: block_1.xlsx
+26.4132 	EXP 	Imported block_1.xlsx as conditions, 19 conditions, 10 params
+26.4135 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'stimuli_no': 1, 'stimulus': 'faces/SAF20.bmp', 'valence': 'sad', 'sex': 'female', 'switch_condition': 'begin', 'BI_condition': 'nonBI', 'minus1_valence': 'non', 'minus2_valence': 'non', 'switch_type': 'begin', 'BI_type': 'non', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+26.4240 	INFO 	Keyboard events cleared
+26.4238 	EXP 	text_fixation: autoDraw = False
+26.4238 	EXP 	text_fixation: autoDraw = False
+26.4238 	EXP 	image_block: image = 'faces/SAF20.bmp'
+26.4238 	EXP 	image_block: autoDraw = True
+26.8934 	DATA 	Keypress: space
+26.8966 	EXP 	image_block: autoDraw = False
+26.8966 	EXP 	text_refresh: autoDraw = True
+27.0894 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'stimuli_no': 2, 'stimulus': 'faces/NEF15.bmp', 'valence': 'neutral', 'sex': 'female', 'switch_condition': 's', 'BI_condition': 'nonBI', 'minus1_valence': 'sad', 'minus2_valence': 'non', 'switch_type': 'sn', 'BI_type': 'snh1', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+27.0932 	INFO 	Keyboard events cleared
+27.0930 	EXP 	text_refresh: autoDraw = False
+27.0930 	EXP 	text_refresh: autoDraw = False
+27.0930 	EXP 	image_block: image = 'faces/NEF15.bmp'
+27.0930 	EXP 	image_block: autoDraw = True
+27.2790 	DATA 	Keypress: space
+27.2875 	EXP 	image_block: autoDraw = False
+27.2875 	EXP 	text_refresh: autoDraw = True
+27.4728 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'stimuli_no': 3, 'stimulus': 'faces/HAF118.bmp', 'valence': 'happy', 'sex': 'female', 'switch_condition': 's', 'BI_condition': 'control', 'minus1_valence': 'neutral', 'minus2_valence': 'sad', 'switch_type': 'nh', 'BI_type': 'snh', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+27.4851 	INFO 	Keyboard events cleared
+27.4849 	EXP 	text_refresh: autoDraw = False
+27.4849 	EXP 	text_refresh: autoDraw = False
+27.4849 	EXP 	image_block: image = 'faces/HAF118.bmp'
+27.4849 	EXP 	image_block: autoDraw = True
+27.7300 	DATA 	Keypress: space
+27.7377 	EXP 	image_block: autoDraw = False
+27.7377 	EXP 	text_refresh: autoDraw = True
+27.9228 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'stimuli_no': 4, 'stimulus': 'faces/HAM1.bmp', 'valence': 'happy', 'sex': 'male', 'switch_condition': 'ns', 'BI_condition': 'nonBI', 'minus1_valence': 'happy', 'minus2_valence': 'neutral', 'switch_type': 'hh', 'BI_type': 'non', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+27.9270 	INFO 	Keyboard events cleared
+27.9268 	EXP 	text_refresh: autoDraw = False
+27.9268 	EXP 	text_refresh: autoDraw = False
+27.9268 	EXP 	image_block: image = 'faces/HAM1.bmp'
+27.9268 	EXP 	image_block: autoDraw = True
+28.1588 	DATA 	Keypress: space
+28.1617 	EXP 	image_block: autoDraw = False
+28.1617 	EXP 	text_refresh: autoDraw = True
+28.3559 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'stimuli_no': 5, 'stimulus': 'faces/NEM11.bmp', 'valence': 'neutral', 'sex': 'male', 'switch_condition': 's', 'BI_condition': 'nonBI', 'minus1_valence': 'happy', 'minus2_valence': 'happy', 'switch_type': 'hn', 'BI_type': 'hnh1', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+28.3598 	INFO 	Keyboard events cleared
+28.3597 	EXP 	text_refresh: autoDraw = False
+28.3597 	EXP 	text_refresh: autoDraw = False
+28.3597 	EXP 	image_block: image = 'faces/NEM11.bmp'
+28.3597 	EXP 	image_block: autoDraw = True
+28.5754 	DATA 	Keypress: space
+28.5783 	EXP 	image_block: autoDraw = False
+28.5783 	EXP 	text_refresh: autoDraw = True
+28.7727 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'stimuli_no': 6, 'stimulus': 'faces/HAM2.bmp', 'valence': 'happy', 'sex': 'male', 'switch_condition': 's', 'BI_condition': 'BI', 'minus1_valence': 'neutral', 'minus2_valence': 'happy', 'switch_type': 'nh', 'BI_type': 'hnh', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+28.7761 	INFO 	Keyboard events cleared
+28.7759 	EXP 	text_refresh: autoDraw = False
+28.7759 	EXP 	text_refresh: autoDraw = False
+28.7759 	EXP 	image_block: image = 'faces/HAM2.bmp'
+28.7759 	EXP 	image_block: autoDraw = True
+29.0272 	DATA 	Keypress: space
+29.0304 	EXP 	image_block: autoDraw = False
+29.0304 	EXP 	text_refresh: autoDraw = True
+29.2230 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'stimuli_no': 7, 'stimulus': 'faces/HAF122.bmp', 'valence': 'happy', 'sex': 'female', 'switch_condition': 'ns', 'BI_condition': 'nonBI', 'minus1_valence': 'happy', 'minus2_valence': 'neutral', 'switch_type': 'hh', 'BI_type': 'non', 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+29.2348 	INFO 	Keyboard events cleared
+29.2346 	EXP 	text_refresh: autoDraw = False
+29.2346 	EXP 	text_refresh: autoDraw = False
+29.2346 	EXP 	image_block: image = 'faces/HAF122.bmp'
+29.2346 	EXP 	image_block: autoDraw = True
+29.4250 	DATA 	Keypress: space
+29.4273 	EXP 	image_block: autoDraw = False
+29.4273 	EXP 	text_refresh: autoDraw = True
+29.6227 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'stimuli_no': 8, 'stimulus': 'faces/SAM10.bmp', 'valence': 'sad', 'sex': 'male', 'switch_condition': 's', 'BI_condition': 'nonBI', 'minus1_valence': 'happy', 'minus2_valence': 'happy', 'switch_type': 'hs', 'BI_type': 'hsn1', 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+29.6271 	INFO 	Keyboard events cleared
+29.6270 	EXP 	text_refresh: autoDraw = False
+29.6270 	EXP 	text_refresh: autoDraw = False
+29.6270 	EXP 	image_block: image = 'faces/SAM10.bmp'
+29.6270 	EXP 	image_block: autoDraw = True
+29.8594 	EXP 	image_block: autoDraw = False
+29.8594 	EXP 	text_refresh: autoDraw = True
+29.8625 	DATA 	Keypress: space
+30.0460 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'stimuli_no': 9, 'stimulus': 'faces/NEM14.bmp', 'valence': 'neutral', 'sex': 'male', 'switch_condition': 's', 'BI_condition': 'control', 'minus1_valence': 'sad', 'minus2_valence': 'happy', 'switch_type': 'sn', 'BI_type': 'hsn', 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+30.0546 	INFO 	Keyboard events cleared
+30.0545 	EXP 	text_refresh: autoDraw = False
+30.0545 	EXP 	text_refresh: autoDraw = False
+30.0545 	EXP 	image_block: image = 'faces/NEM14.bmp'
+30.0545 	EXP 	image_block: autoDraw = True
+30.3267 	EXP 	image_block: autoDraw = False
+30.3267 	EXP 	text_refresh: autoDraw = True
+30.3303 	DATA 	Keypress: space
+30.5225 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'stimuli_no': 10, 'stimulus': 'faces/NEF35.bmp', 'valence': 'neutral', 'sex': 'female', 'switch_condition': 'ns', 'BI_condition': 'nonBI', 'minus1_valence': 'neutral', 'minus2_valence': 'sad', 'switch_type': 'nn', 'BI_type': 'non', 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+30.5287 	INFO 	Keyboard events cleared
+30.5285 	EXP 	text_refresh: autoDraw = False
+30.5285 	EXP 	text_refresh: autoDraw = False
+30.5285 	EXP 	image_block: image = 'faces/NEF35.bmp'
+30.5285 	EXP 	image_block: autoDraw = True
+30.7380 	EXP 	image_block: autoDraw = False
+30.7380 	EXP 	text_refresh: autoDraw = True
+30.7415 	DATA 	Keypress: space
+30.9229 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'stimuli_no': 11, 'stimulus': 'faces/HAF1.bmp', 'valence': 'happy', 'sex': 'female', 'switch_condition': 's', 'BI_condition': 'nonBI', 'minus1_valence': 'neutral', 'minus2_valence': 'neutral', 'switch_type': 'nh', 'BI_type': 'nhn1', 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+30.9273 	INFO 	Keyboard events cleared
+30.9271 	EXP 	text_refresh: autoDraw = False
+30.9271 	EXP 	text_refresh: autoDraw = False
+30.9271 	EXP 	image_block: image = 'faces/HAF1.bmp'
+30.9271 	EXP 	image_block: autoDraw = True
+31.1808 	DATA 	Keypress: space
+31.1879 	EXP 	image_block: autoDraw = False
+31.1879 	EXP 	text_refresh: autoDraw = True
+31.3727 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'stimuli_no': 12, 'stimulus': 'faces/NEF45.bmp', 'valence': 'neutral', 'sex': 'female', 'switch_condition': 's', 'BI_condition': 'BI', 'minus1_valence': 'happy', 'minus2_valence': 'neutral', 'switch_type': 'hn', 'BI_type': 'nhn', 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+31.3769 	INFO 	Keyboard events cleared
+31.3767 	EXP 	text_refresh: autoDraw = False
+31.3767 	EXP 	text_refresh: autoDraw = False
+31.3767 	EXP 	image_block: image = 'faces/NEF45.bmp'
+31.3767 	EXP 	image_block: autoDraw = True
+31.6046 	EXP 	image_block: autoDraw = False
+31.6046 	EXP 	text_refresh: autoDraw = True
+31.6080 	DATA 	Keypress: space
+31.7899 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'stimuli_no': 13, 'stimulus': 'faces/NEM15.bmp', 'valence': 'neutral', 'sex': 'male', 'switch_condition': 'ns', 'BI_condition': 'nonBI', 'minus1_valence': 'neutral', 'minus2_valence': 'happy', 'switch_type': 'nn', 'BI_type': 'non', 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+31.7944 	INFO 	Keyboard events cleared
+31.7942 	EXP 	text_refresh: autoDraw = False
+31.7942 	EXP 	text_refresh: autoDraw = False
+31.7942 	EXP 	image_block: image = 'faces/NEM15.bmp'
+31.7942 	EXP 	image_block: autoDraw = True
+32.0514 	DATA 	Keypress: space
+32.0540 	EXP 	image_block: autoDraw = False
+32.0540 	EXP 	text_refresh: autoDraw = True
+32.2398 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'stimuli_no': 14, 'stimulus': 'faces/SAM29.bmp', 'valence': 'sad', 'sex': 'male', 'switch_condition': 's', 'BI_condition': 'nonBI', 'minus1_valence': 'neutral', 'minus2_valence': 'neutral', 'switch_type': 'ns', 'BI_type': 'nsn1', 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+32.2531 	INFO 	Keyboard events cleared
+32.2528 	EXP 	text_refresh: autoDraw = False
+32.2528 	EXP 	text_refresh: autoDraw = False
+32.2528 	EXP 	image_block: image = 'faces/SAM29.bmp'
+32.2528 	EXP 	image_block: autoDraw = True
+32.4587 	DATA 	Keypress: space
+32.4617 	EXP 	image_block: autoDraw = False
+32.4617 	EXP 	text_refresh: autoDraw = True
+32.6562 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'stimuli_no': 15, 'stimulus': 'faces/NEF60.bmp', 'valence': 'neutral', 'sex': 'female', 'switch_condition': 's', 'BI_condition': 'BI', 'minus1_valence': 'sad', 'minus2_valence': 'neutral', 'switch_type': 'sn', 'BI_type': 'nsn', 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+32.6591 	INFO 	Keyboard events cleared
+32.6590 	EXP 	text_refresh: autoDraw = False
+32.6590 	EXP 	text_refresh: autoDraw = False
+32.6590 	EXP 	image_block: image = 'faces/NEF60.bmp'
+32.6590 	EXP 	image_block: autoDraw = True
+32.9426 	DATA 	Keypress: space
+32.9454 	EXP 	image_block: autoDraw = False
+32.9454 	EXP 	text_refresh: autoDraw = True
+33.1397 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'stimuli_no': 16, 'stimulus': 'faces/SAF31.bmp', 'valence': 'sad', 'sex': 'female', 'switch_condition': 's', 'BI_condition': 'nonBI', 'minus1_valence': 'neutral', 'minus2_valence': 'sad', 'switch_type': 'ns', 'BI_type': 'non', 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+33.1515 	INFO 	Keyboard events cleared
+33.1513 	EXP 	text_refresh: autoDraw = False
+33.1513 	EXP 	text_refresh: autoDraw = False
+33.1513 	EXP 	image_block: image = 'faces/SAF31.bmp'
+33.1513 	EXP 	image_block: autoDraw = True
+33.1715 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+33.3414 	DATA 	Keypress: space
+33.3437 	EXP 	image_block: autoDraw = False
+33.3437 	EXP 	text_refresh: autoDraw = True
+33.5300 	EXP 	New trial (rep=0, index=16): <Trial 16 (16 in rep 0) data={'stimuli_no': 17, 'stimulus': 'faces/SAF32.bmp', 'valence': 'sad', 'sex': 'female', 'switch_condition': 'ns', 'BI_condition': 'nonBI', 'minus1_valence': 'sad', 'minus2_valence': 'neutral', 'switch_type': 'ss', 'BI_type': 'non', 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 0}>
+33.5453 	INFO 	Keyboard events cleared
+33.5450 	EXP 	text_refresh: autoDraw = False
+33.5450 	EXP 	text_refresh: autoDraw = False
+33.5450 	EXP 	image_block: image = 'faces/SAF32.bmp'
+33.5450 	EXP 	image_block: autoDraw = True
+33.7290 	DATA 	Keypress: space
+33.7379 	EXP 	image_block: autoDraw = False
+33.7379 	EXP 	text_refresh: autoDraw = True
+33.9233 	EXP 	New trial (rep=0, index=17): <Trial 17 (17 in rep 0) data={'stimuli_no': 18, 'stimulus': 'faces/HAM5.bmp', 'valence': 'happy', 'sex': 'male', 'switch_condition': 's', 'BI_condition': 'nonBI', 'minus1_valence': 'sad', 'minus2_valence': 'sad', 'switch_type': 'sh', 'BI_type': 'shn1', 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 0}>
+33.9280 	INFO 	Keyboard events cleared
+33.9278 	EXP 	text_refresh: autoDraw = False
+33.9278 	EXP 	text_refresh: autoDraw = False
+33.9278 	EXP 	image_block: image = 'faces/HAM5.bmp'
+33.9278 	EXP 	image_block: autoDraw = True
+34.1772 	EXP 	image_block: autoDraw = False
+34.1772 	EXP 	text_refresh: autoDraw = True
+34.1811 	DATA 	Keypress: space
+34.3731 	EXP 	New trial (rep=0, index=18): <Trial 18 (18 in rep 0) data={'stimuli_no': 19, 'stimulus': 'faces/NEF62.bmp', 'valence': 'neutral', 'sex': 'female', 'switch_condition': 's', 'BI_condition': 'control', 'minus1_valence': 'happy', 'minus2_valence': 'sad', 'switch_type': 'hn', 'BI_type': 'shn', 'thisN': 18, 'thisTrialN': 18, 'thisRepN': 0}>
+34.3777 	INFO 	Keyboard events cleared
+34.3775 	EXP 	text_refresh: autoDraw = False
+34.3775 	EXP 	text_refresh: autoDraw = False
+34.3775 	EXP 	image_block: image = 'faces/NEF62.bmp'
+34.3775 	EXP 	image_block: autoDraw = True
+34.5599 	DATA 	Keypress: space
+34.5629 	EXP 	image_block: autoDraw = False
+34.5629 	EXP 	text_refresh: autoDraw = True
+34.7663 	EXP 	text_refresh: autoDraw = False
+34.7663 	EXP 	text_refresh: autoDraw = False
+34.7663 	EXP 	text_answer_block: autoDraw = True
+34.7663 	EXP 	textbox_answer_block: autoDraw = True
+34.7663 	EXP 	button_answer_block: autoDraw = True
+35.5117 	DATA 	Keypress: 3
+35.6536 	DATA 	Keypress: 1
+35.6942 	DATA 	Keypress: 2
+35.7955 	DATA 	Keypress: 4
+35.9799 	DATA 	Keypress: 3
+36.1110 	DATA 	Keypress: 1
+36.1903 	DATA 	Keypress: 4
+36.7308 	DATA 	Keypress: 2
+37.1234 	DATA 	Keypress: backspace
+37.2974 	DATA 	Keypress: backspace
+37.4308 	DATA 	Keypress: backspace
+37.6590 	DATA 	Keypress: 1
+37.6777 	DATA 	Keypress: 2
+38.1092 	DATA 	Keypress: 4
+38.7977 	DATA 	Keypress: space
+40.0750 	DATA 	Mouse: Left button down, pos=(448,84)
+40.0881 	EXP 	text_answer_block: autoDraw = False
+40.0881 	EXP 	textbox_answer_block: autoDraw = False
+40.0881 	EXP 	button_answer_block: autoDraw = False
+40.0881 	EXP 	text_refresh: autoDraw = True
+40.1401 	DATA 	Mouse:  Left button up, pos=(448,87)
+40.2790 	INFO 	Keyboard events cleared
+40.2788 	EXP 	text_refresh: autoDraw = False
+40.2788 	EXP 	text_refresh: autoDraw = False
+40.2788 	EXP 	text_feedback_block: height = 0.05
+40.2788 	EXP 	text_feedback_block: height = 0.05
+40.2788 	EXP 	text_feedback_block: height = 0.05
+40.2788 	EXP 	text_feedback_block: text = '你答对了0种表情的面孔数目。'
+40.2788 	EXP 	text_feedback_block: autoDraw = True
+40.2788 	EXP 	text_feedback_block_note: autoDraw = True
+41.0552 	EXP 	text_feedback_block: autoDraw = False
+41.0552 	EXP 	text_feedback_block_note: autoDraw = False
+41.0552 	EXP 	text_refresh: autoDraw = True
+41.0588 	DATA 	Keypress: space
+41.2515 	INFO 	Keyboard events cleared
+41.2512 	EXP 	text_refresh: autoDraw = False
+41.2512 	EXP 	text_refresh: autoDraw = False
+41.2512 	EXP 	text_continue_check_block: text = ''
+41.2512 	EXP 	text_continue_check_block: height = 0.05
+41.2512 	EXP 	text_continue_check_block: height = 0.05
+41.2512 	EXP 	text_continue_check_block: height = 0.05
+41.2512 	EXP 	text_continue_check_block: text = '如果您觉得累了，可以休息一会儿。'
+41.2512 	EXP 	text_continue_check_block: autoDraw = True
+41.2512 	EXP 	text_continue_prompt: autoDraw = True
+41.8933 	DATA 	Keypress: space
+41.8961 	EXP 	text_continue_check_block: autoDraw = False
+41.8961 	EXP 	text_continue_prompt: autoDraw = False
+41.8961 	EXP 	text_refresh: autoDraw = True
+42.0901 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'block_file': 'block_2.xlsx', 'correct_answer': 666, 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+42.0927 	EXP 	text_refresh: autoDraw = False
+42.0927 	EXP 	text_refresh: autoDraw = False
+42.0927 	EXP 	text_fixation: autoDraw = True
+42.6192 	DATA 	Keypress: escape
+42.6742 	EXP 	TIST: status = STOPPED
+42.6769 	EXP 	text_fixation: autoDraw = False
+42.6780 	EXP 	TIST: status = STOPPED
+42.6884 	INFO 	saved data to '/Users/Chenxiao/Documents/project_codes/TIST_stable_v1/data/584303_TIST_2025-08-01_14h43.50.285.csv'
+42.6894 	INFO 	saved data to /Users/Chenxiao/Documents/project_codes/TIST_stable_v1/data/584303_TIST_2025-08-01_14h43.50.285.psydat
+42.9778 	DEBUG 	Saving data for TIST ExperimentHandler
