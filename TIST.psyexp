@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" ?>
-<PsychoPy2experiment encoding="utf-8" version="2024.2.4">
+<PsychoPy2experiment encoding="utf-8" version="2025.1.1">
   <Settings>
     <Param val="3" valType="str" updates="None" name="Audio latency priority"/>
     <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
@@ -14,7 +14,7 @@
     <Param val="" valType="str" updates="None" name="HTML path"/>
     <Param val="" valType="str" updates="None" name="Incomplete URL"/>
     <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
-    <Param val="['faces/HAF1.bmp', 'faces/HAF8.bmp', 'faces/HAF42.bmp', 'faces/HAF59.bmp', 'faces/HAF70.bmp', 'faces/HAF82.bmp', 'faces/HAF86.bmp', 'faces/HAF94.bmp', 'faces/HAF99.bmp', 'faces/HAF101.bmp', 'faces/HAF102.bmp', 'faces/HAF103.bmp', 'faces/HAF107.bmp', 'faces/HAF110.bmp', 'faces/HAF115.bmp', 'faces/HAF118.bmp', 'faces/HAF122.bmp', 'faces/HAM1.bmp', 'faces/HAM2.bmp', 'faces/HAM5.bmp', 'faces/HAM9.bmp', 'faces/HAM10.bmp', 'faces/HAM17.bmp', 'faces/HAM38.bmp', 'faces/HAM39.bmp', 'faces/HAM49.bmp', 'faces/HAM50.bmp', 'faces/HAM78.bmp', 'faces/HAM89.bmp', 'faces/HAM95.bmp', 'faces/HAM98.bmp', 'faces/HAM112.bmp', 'faces/HAM114.bmp', 'faces/NEF6.bmp', 'faces/NEF8.bmp', 'faces/NEF9.bmp', 'faces/NEF15.bmp', 'faces/NEF35.bmp', 'faces/NEF36.bmp', 'faces/NEF45.bmp', 'faces/NEF60.bmp', 'faces/NEF62.bmp', 'faces/NEF66.bmp', 'faces/NEF83.bmp', 'faces/NEF99.bmp', 'faces/NEF107.bmp', 'faces/NEM4.bmp', 'faces/NEM5.bmp', 'faces/NEM6.bmp', 'faces/NEM8.bmp', 'faces/NEM11.bmp', 'faces/NEM14.bmp', 'faces/NEM15.bmp', 'faces/NEM29.bmp', 'faces/NEM37.bmp', 'faces/NEM40.bmp', 'faces/NEM59.bmp', 'faces/NEM76.bmp', 'faces/NEM95.bmp', 'faces/NEM98.bmp', 'faces/SAF2.bmp', 'faces/SAF3.bmp', 'faces/SAF15.bmp', 'faces/SAF16.bmp', 'faces/SAF20.bmp', 'faces/SAF24.bmp', 'faces/SAF31.bmp', 'faces/SAF32.bmp', 'faces/SAF33.bmp', 'faces/SAF34.bmp', 'faces/SAF48.bmp', 'faces/SAM1.bmp', 'faces/SAM3.bmp', 'faces/SAM5.bmp', 'faces/SAM6.bmp', 'faces/SAM7.bmp', 'faces/SAM9.bmp', 'faces/SAM10.bmp', 'faces/SAM11.bmp', 'faces/SAM12.bmp', 'faces/SAM13.bmp', 'faces/SAM15.bmp', 'faces/SAM29.bmp', 'faces/SAM30.bmp', 'faces/SAM31.bmp']" valType="list" updates="None" name="Resources"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
     <Param val="False" valType="bool" updates="None" name="Save csv file"/>
     <Param val="False" valType="bool" updates="None" name="Save excel file"/>
     <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
@@ -47,6 +47,7 @@
     <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
     <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
     <Param val="TIST" valType="str" updates="None" name="expName"/>
+    <Param val="" valType="str" updates="None" name="expVersion"/>
     <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
     <Param val="None" valType="str" updates="None" name="eyetracker"/>
     <Param val="" valType="code" updates="None" name="frameRate"/>
@@ -335,7 +336,7 @@
         <Param val="text_answer_block_practice" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(0, 0.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0, 0.22)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
@@ -343,17 +344,17 @@
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="请按如下顺序输入答案（数字中间无间隔或任何字符）：&amp;#10;&amp;#10;快乐-平静-悲伤" valType="str" updates="constant" name="text"/>
+        <Param val="请按如下顺序在方框内输入答案：&amp;#10;&amp;#10;&amp;#10;快乐   无表情   悲伤" valType="str" updates="constant" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
-      <TextboxComponent name="textbox_answer_block_practice" plugin="None">
+      <TextboxComponent name="textbox_answer_block_practice1" plugin="None">
         <Param val="center" valType="str" updates="constant" name="alignment"/>
         <Param val="center" valType="str" updates="constant" name="anchor"/>
         <Param val="True" valType="bool" updates="constant" name="autoLog"/>
         <Param val="False" valType="bool" updates="constant" name="bold"/>
-        <Param val="None" valType="color" updates="constant" name="borderColor"/>
+        <Param val="1.0000, 1.0000, 1.0000" valType="color" updates="constant" name="borderColor"/>
         <Param val="2" valType="num" updates="constant" name="borderWidth"/>
         <Param val="white" valType="color" updates="constant" name="color"/>
         <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
@@ -368,17 +369,101 @@
         <Param val="Noto Sans SC" valType="str" updates="constant" name="font"/>
         <Param val="False" valType="bool" updates="constant" name="italic"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.045" valType="num" updates="constant" name="letterHeight"/>
         <Param val="1.0" valType="num" updates="constant" name="lineSpacing"/>
-        <Param val="textbox_answer_block_practice" valType="code" updates="None" name="name"/>
+        <Param val="textbox_answer_block_practice1" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="visible" valType="str" updates="constant" name="overflow"/>
         <Param val="0" valType="num" updates="constant" name="padding"/>
-        <Param val="" valType="str" updates="constant" name="placeholder"/>
+        <Param val="快乐" valType="str" updates="constant" name="placeholder"/>
+        <Param val="(-0.15, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.1, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="list" updates="constant" name="speechPoint"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </TextboxComponent>
+      <TextboxComponent name="textbox_answer_block_practice2" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="alignment"/>
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="True" valType="bool" updates="constant" name="autoLog"/>
+        <Param val="False" valType="bool" updates="constant" name="bold"/>
+        <Param val="1.0000, 1.0000, 1.0000" valType="color" updates="constant" name="borderColor"/>
+        <Param val="2" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="editable"/>
+        <Param val="None" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Noto Sans SC" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.045" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="1.0" valType="num" updates="constant" name="lineSpacing"/>
+        <Param val="textbox_answer_block_practice2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="visible" valType="str" updates="constant" name="overflow"/>
+        <Param val="0" valType="num" updates="constant" name="padding"/>
+        <Param val="平静" valType="str" updates="constant" name="placeholder"/>
         <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="(0.1, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="list" updates="constant" name="speechPoint"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </TextboxComponent>
+      <TextboxComponent name="textbox_answer_block_practice3" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="alignment"/>
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="True" valType="bool" updates="constant" name="autoLog"/>
+        <Param val="False" valType="bool" updates="constant" name="bold"/>
+        <Param val="1.0000, 1.0000, 1.0000" valType="color" updates="constant" name="borderColor"/>
+        <Param val="2" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="editable"/>
+        <Param val="None" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Noto Sans SC" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.045" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="1.0" valType="num" updates="constant" name="lineSpacing"/>
+        <Param val="textbox_answer_block_practice3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="visible" valType="str" updates="constant" name="overflow"/>
+        <Param val="0" valType="num" updates="constant" name="padding"/>
+        <Param val="悲伤" valType="str" updates="constant" name="placeholder"/>
+        <Param val="(0.15, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.1, 0.08)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="list" updates="constant" name="speechPoint"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
@@ -445,12 +530,12 @@
         <Param val="psychoJS.window.mouseVisible = true;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
         <Param val="win.mouseVisible = True" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
-        <Param val="allowed_chars = '0123456789'&amp;#10;text = textbox_answer_block_practice.text&amp;#10;filtered_text = ''&amp;#10;for i in range(len(text)):&amp;#10;    if text[i] in allowed_chars:&amp;#10;        filtered_text += text[i]&amp;#10;    if len(filtered_text) &gt;= 3:&amp;#10;        break  # stop after collecting 3 digits&amp;#10;textbox_answer_block_practice.setText(filtered_text)" valType="extendedCode" updates="constant" name="Each Frame"/>
-        <Param val="var _pj;&amp;#10;function _pj_snippets(container) {&amp;#10;    function in_es6(left, right) {&amp;#10;        if (((right instanceof Array) || ((typeof right) === &quot;string&quot;))) {&amp;#10;            return (right.indexOf(left) &gt; (- 1));&amp;#10;        } else {&amp;#10;            if (((right instanceof Map) || (right instanceof Set) || (right instanceof WeakMap) || (right instanceof WeakSet))) {&amp;#10;                return right.has(left);&amp;#10;            } else {&amp;#10;                return (left in right);&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;    container[&quot;in_es6&quot;] = in_es6;&amp;#10;    return container;&amp;#10;}&amp;#10;_pj = {};&amp;#10;_pj_snippets(_pj);&amp;#10;allowed_chars = &quot;0123456789&quot;;&amp;#10;text = textbox_answer_block_practice.text;&amp;#10;filtered_text = &quot;&quot;;&amp;#10;for (var i, _pj_c = 0, _pj_a = util.range(text.length), _pj_b = _pj_a.length; (_pj_c &lt; _pj_b); _pj_c += 1) {&amp;#10;    i = _pj_a[_pj_c];&amp;#10;    if (_pj.in_es6(text[i], allowed_chars)) {&amp;#10;        filtered_text += text[i];&amp;#10;    }&amp;#10;    if ((filtered_text.length &gt;= 3)) {&amp;#10;        break;&amp;#10;    }&amp;#10;}&amp;#10;textbox_answer_block_practice.setText(filtered_text);&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="allowed_chars = '0123456789'&amp;#10;&amp;#10;text1 = textbox_answer_block_practice1.text&amp;#10;filtered = ''.join([c for c in text1 if c in allowed_chars])&amp;#10;if len(filtered) &gt; 0:&amp;#10;    textbox_answer_block_practice1.setText(filtered[0])&amp;#10;else:&amp;#10;    textbox_answer_block_practice1.setText('')&amp;#10;    &amp;#10;text2 = textbox_answer_block_practice2.text&amp;#10;filtered = ''.join([c for c in text2 if c in allowed_chars])&amp;#10;if len(filtered) &gt; 0:&amp;#10;    textbox_answer_block_practice2.setText(filtered[0])&amp;#10;else:&amp;#10;    textbox_answer_block_practice2.setText('')&amp;#10;    &amp;#10;text3 = textbox_answer_block_practice3.text&amp;#10;filtered = ''.join([c for c in text3 if c in allowed_chars])&amp;#10;if len(filtered) &gt; 0:&amp;#10;    textbox_answer_block_practice3.setText(filtered[0])&amp;#10;else:&amp;#10;    textbox_answer_block_practice3.setText('')" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="var _pj;&amp;#10;function _pj_snippets(container) {&amp;#10;    function in_es6(left, right) {&amp;#10;        if (((right instanceof Array) || ((typeof right) === &quot;string&quot;))) {&amp;#10;            return (right.indexOf(left) &gt; (- 1));&amp;#10;        } else {&amp;#10;            if (((right instanceof Map) || (right instanceof Set) || (right instanceof WeakMap) || (right instanceof WeakSet))) {&amp;#10;                return right.has(left);&amp;#10;            } else {&amp;#10;                return (left in right);&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;    container[&quot;in_es6&quot;] = in_es6;&amp;#10;    return container;&amp;#10;}&amp;#10;_pj = {};&amp;#10;_pj_snippets(_pj);&amp;#10;allowed_chars = &quot;0123456789&quot;;&amp;#10;text1 = textbox_answer_block_practice1.text;&amp;#10;filtered = function () {&amp;#10;    var _pj_a = [], _pj_b = text1;&amp;#10;    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c &lt; _pj_d); _pj_c += 1) {&amp;#10;        var c = _pj_b[_pj_c];&amp;#10;        if (_pj.in_es6(c, allowed_chars)) {&amp;#10;            _pj_a.push(c);&amp;#10;        }&amp;#10;    }&amp;#10;    return _pj_a;&amp;#10;}&amp;#10;.call(this).join(&quot;&quot;);&amp;#10;if ((filtered.length &gt; 0)) {&amp;#10;    textbox_answer_block_practice1.setText(filtered[0]);&amp;#10;} else {&amp;#10;    textbox_answer_block_practice1.setText(&quot;&quot;);&amp;#10;}&amp;#10;text2 = textbox_answer_block_practice2.text;&amp;#10;filtered = function () {&amp;#10;    var _pj_a = [], _pj_b = text2;&amp;#10;    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c &lt; _pj_d); _pj_c += 1) {&amp;#10;        var c = _pj_b[_pj_c];&amp;#10;        if (_pj.in_es6(c, allowed_chars)) {&amp;#10;            _pj_a.push(c);&amp;#10;        }&amp;#10;    }&amp;#10;    return _pj_a;&amp;#10;}&amp;#10;.call(this).join(&quot;&quot;);&amp;#10;if ((filtered.length &gt; 0)) {&amp;#10;    textbox_answer_block_practice2.setText(filtered[0]);&amp;#10;} else {&amp;#10;    textbox_answer_block_practice2.setText(&quot;&quot;);&amp;#10;}&amp;#10;text3 = textbox_answer_block_practice3.text;&amp;#10;filtered = function () {&amp;#10;    var _pj_a = [], _pj_b = text3;&amp;#10;    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c &lt; _pj_d); _pj_c += 1) {&amp;#10;        var c = _pj_b[_pj_c];&amp;#10;        if (_pj.in_es6(c, allowed_chars)) {&amp;#10;            _pj_a.push(c);&amp;#10;        }&amp;#10;    }&amp;#10;    return _pj_a;&amp;#10;}&amp;#10;.call(this).join(&quot;&quot;);&amp;#10;if ((filtered.length &gt; 0)) {&amp;#10;    textbox_answer_block_practice3.setText(filtered[0]);&amp;#10;} else {&amp;#10;    textbox_answer_block_practice3.setText(&quot;&quot;);&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
-        <Param val="correct_answer_current = correct_answer;&amp;#10;correct_answer_current = correct_answer_current.toString();&amp;#10;participant_response = textbox_answer_block_practice.text.strip();&amp;#10;num_correct = util.sum(function () {&amp;#10;    var _pj_a = [], _pj_b = util.range(3);&amp;#10;    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c &lt; _pj_d); _pj_c += 1) {&amp;#10;        var i = _pj_b[_pj_c];&amp;#10;        if ((participant_response[i] === correct_answer_current[i])) {&amp;#10;            _pj_a.push(1);&amp;#10;        }&amp;#10;    }&amp;#10;    return _pj_a;&amp;#10;}&amp;#10;.call(this));&amp;#10;psychoJS.experiment.addData(&quot;num_correct&quot;, num_correct);&amp;#10;feedback_text = `你答对了${num_correct}种表情的面孔数目。`;&amp;#10;psychoJS.window.mouseVisible = false;&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
-        <Param val="correct_answer_current = correct_answer&amp;#10;correct_answer_current = str(correct_answer_current)&amp;#10;participant_response = textbox_answer_block_practice.text.strip()&amp;#10;num_correct = sum([1 for i in range(3) if participant_response[i] == correct_answer_current[i]])&amp;#10;thisExp.addData('num_correct', num_correct)&amp;#10;feedback_text = f&quot;你答对了{num_correct}种表情的面孔数目。&quot;&amp;#10;win.mouseVisible = False" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="correct_answer_current = correct_answer;&amp;#10;correct_answer_current = correct_answer_current.toString();&amp;#10;participant_response = ((textbox_answer_block_practice1.text + textbox_answer_block_practice2.text) + textbox_answer_block_practice3.text);&amp;#10;num_correct = util.sum(function () {&amp;#10;    var _pj_a = [], _pj_b = util.range(3);&amp;#10;    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c &lt; _pj_d); _pj_c += 1) {&amp;#10;        var i = _pj_b[_pj_c];&amp;#10;        if ((participant_response[i] === correct_answer_current[i])) {&amp;#10;            _pj_a.push(1);&amp;#10;        }&amp;#10;    }&amp;#10;    return _pj_a;&amp;#10;}&amp;#10;.call(this));&amp;#10;psychoJS.experiment.addData(&quot;num_correct&quot;, num_correct);&amp;#10;feedback_text = `你答对了${num_correct}种表情的面孔数目。`;&amp;#10;psychoJS.window.mouseVisible = false;&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="correct_answer_current = correct_answer&amp;#10;correct_answer_current = str(correct_answer_current)&amp;#10;participant_response = textbox_answer_block_practice1.text + textbox_answer_block_practice2.text + textbox_answer_block_practice3.text&amp;#10;num_correct = sum([1 for i in range(3) if participant_response[i] == correct_answer_current[i]])&amp;#10;thisExp.addData('num_correct', num_correct)&amp;#10;feedback_text = f&quot;你答对了{num_correct}种表情的面孔数目。&quot;&amp;#10;win.mouseVisible = False" valType="extendedCode" updates="constant" name="End Routine"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="code" valType="code" updates="None" name="name"/>
       </CodeComponent>
@@ -863,7 +948,7 @@
         <Param val="text_answer_block" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(0, 0.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0, 0.22)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
@@ -871,17 +956,17 @@
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="请按如下顺序输入答案（数字中间无间隔或任何字符）：&amp;#10;&amp;#10;快乐-平静-悲伤" valType="str" updates="constant" name="text"/>
+        <Param val="请按如下顺序在方框内输入答案：&amp;#10;&amp;#10;&amp;#10;快乐   无表情   悲伤" valType="str" updates="constant" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
-      <TextboxComponent name="textbox_answer_block" plugin="None">
+      <TextboxComponent name="textbox_answer_block1" plugin="None">
         <Param val="center" valType="str" updates="constant" name="alignment"/>
         <Param val="center" valType="str" updates="constant" name="anchor"/>
         <Param val="True" valType="bool" updates="constant" name="autoLog"/>
         <Param val="False" valType="bool" updates="constant" name="bold"/>
-        <Param val="None" valType="color" updates="constant" name="borderColor"/>
+        <Param val="1.0000, 1.0000, 1.0000" valType="color" updates="constant" name="borderColor"/>
         <Param val="2" valType="num" updates="constant" name="borderWidth"/>
         <Param val="white" valType="color" updates="constant" name="color"/>
         <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
@@ -896,17 +981,101 @@
         <Param val="Noto Sans SC" valType="str" updates="constant" name="font"/>
         <Param val="False" valType="bool" updates="constant" name="italic"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.045" valType="num" updates="constant" name="letterHeight"/>
         <Param val="1.0" valType="num" updates="constant" name="lineSpacing"/>
-        <Param val="textbox_answer_block" valType="code" updates="None" name="name"/>
+        <Param val="textbox_answer_block1" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="visible" valType="str" updates="constant" name="overflow"/>
         <Param val="0" valType="num" updates="constant" name="padding"/>
-        <Param val="" valType="str" updates="constant" name="placeholder"/>
+        <Param val="快乐" valType="str" updates="constant" name="placeholder"/>
+        <Param val="(-0.15, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.1, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="list" updates="constant" name="speechPoint"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </TextboxComponent>
+      <TextboxComponent name="textbox_answer_block2" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="alignment"/>
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="True" valType="bool" updates="constant" name="autoLog"/>
+        <Param val="False" valType="bool" updates="constant" name="bold"/>
+        <Param val="1.0000, 1.0000, 1.0000" valType="color" updates="constant" name="borderColor"/>
+        <Param val="2" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="editable"/>
+        <Param val="None" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Noto Sans SC" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.045" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="1.0" valType="num" updates="constant" name="lineSpacing"/>
+        <Param val="textbox_answer_block2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="visible" valType="str" updates="constant" name="overflow"/>
+        <Param val="0" valType="num" updates="constant" name="padding"/>
+        <Param val="平静" valType="str" updates="constant" name="placeholder"/>
         <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="(0.1, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="list" updates="constant" name="speechPoint"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </TextboxComponent>
+      <TextboxComponent name="textbox_answer_block3" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="alignment"/>
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="True" valType="bool" updates="constant" name="autoLog"/>
+        <Param val="False" valType="bool" updates="constant" name="bold"/>
+        <Param val="1.0000, 1.0000, 1.0000" valType="color" updates="constant" name="borderColor"/>
+        <Param val="2" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="editable"/>
+        <Param val="None" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Noto Sans SC" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.045" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="1.0" valType="num" updates="constant" name="lineSpacing"/>
+        <Param val="textbox_answer_block3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="visible" valType="str" updates="constant" name="overflow"/>
+        <Param val="0" valType="num" updates="constant" name="padding"/>
+        <Param val="悲伤" valType="str" updates="constant" name="placeholder"/>
+        <Param val="(0.15, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.1, 0.08)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="list" updates="constant" name="speechPoint"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
@@ -973,12 +1142,12 @@
         <Param val="psychoJS.window.mouseVisible = true;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
         <Param val="win.mouseVisible = True" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
-        <Param val="allowed_chars = '0123456789'&amp;#10;text = textbox_answer_block.text&amp;#10;filtered_text = ''&amp;#10;for i in range(len(text)):&amp;#10;    if text[i] in allowed_chars:&amp;#10;        filtered_text += text[i]&amp;#10;    if len(filtered_text) &gt;= 3:&amp;#10;        break  # stop after collecting 3 digits&amp;#10;textbox_answer_block.setText(filtered_text)" valType="extendedCode" updates="constant" name="Each Frame"/>
-        <Param val="var _pj;&amp;#10;function _pj_snippets(container) {&amp;#10;    function in_es6(left, right) {&amp;#10;        if (((right instanceof Array) || ((typeof right) === &quot;string&quot;))) {&amp;#10;            return (right.indexOf(left) &gt; (- 1));&amp;#10;        } else {&amp;#10;            if (((right instanceof Map) || (right instanceof Set) || (right instanceof WeakMap) || (right instanceof WeakSet))) {&amp;#10;                return right.has(left);&amp;#10;            } else {&amp;#10;                return (left in right);&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;    container[&quot;in_es6&quot;] = in_es6;&amp;#10;    return container;&amp;#10;}&amp;#10;_pj = {};&amp;#10;_pj_snippets(_pj);&amp;#10;allowed_chars = &quot;0123456789&quot;;&amp;#10;text = textbox_answer_block.text;&amp;#10;filtered_text = &quot;&quot;;&amp;#10;for (var i, _pj_c = 0, _pj_a = util.range(text.length), _pj_b = _pj_a.length; (_pj_c &lt; _pj_b); _pj_c += 1) {&amp;#10;    i = _pj_a[_pj_c];&amp;#10;    if (_pj.in_es6(text[i], allowed_chars)) {&amp;#10;        filtered_text += text[i];&amp;#10;    }&amp;#10;    if ((filtered_text.length &gt;= 3)) {&amp;#10;        break;&amp;#10;    }&amp;#10;}&amp;#10;textbox_answer_block.setText(filtered_text);&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="allowed_chars = '0123456789'&amp;#10;&amp;#10;text1 = textbox_answer_block1.text&amp;#10;filtered = ''.join([c for c in text1 if c in allowed_chars])&amp;#10;if len(filtered) &gt; 0:&amp;#10;    textbox_answer_block1.setText(filtered[0])&amp;#10;else:&amp;#10;    textbox_answer_block1.setText('')&amp;#10;    &amp;#10;text2 = textbox_answer_block2.text&amp;#10;filtered = ''.join([c for c in text2 if c in allowed_chars])&amp;#10;if len(filtered) &gt; 0:&amp;#10;    textbox_answer_block2.setText(filtered[0])&amp;#10;else:&amp;#10;    textbox_answer_block2.setText('')&amp;#10;    &amp;#10;text3 = textbox_answer_block3.text&amp;#10;filtered = ''.join([c for c in text3 if c in allowed_chars])&amp;#10;if len(filtered) &gt; 0:&amp;#10;    textbox_answer_block3.setText(filtered[0])&amp;#10;else:&amp;#10;    textbox_answer_block3.setText('')" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="var _pj;&amp;#10;function _pj_snippets(container) {&amp;#10;    function in_es6(left, right) {&amp;#10;        if (((right instanceof Array) || ((typeof right) === &quot;string&quot;))) {&amp;#10;            return (right.indexOf(left) &gt; (- 1));&amp;#10;        } else {&amp;#10;            if (((right instanceof Map) || (right instanceof Set) || (right instanceof WeakMap) || (right instanceof WeakSet))) {&amp;#10;                return right.has(left);&amp;#10;            } else {&amp;#10;                return (left in right);&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;    container[&quot;in_es6&quot;] = in_es6;&amp;#10;    return container;&amp;#10;}&amp;#10;_pj = {};&amp;#10;_pj_snippets(_pj);&amp;#10;allowed_chars = &quot;0123456789&quot;;&amp;#10;text1 = textbox_answer_block1.text;&amp;#10;filtered = function () {&amp;#10;    var _pj_a = [], _pj_b = text1;&amp;#10;    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c &lt; _pj_d); _pj_c += 1) {&amp;#10;        var c = _pj_b[_pj_c];&amp;#10;        if (_pj.in_es6(c, allowed_chars)) {&amp;#10;            _pj_a.push(c);&amp;#10;        }&amp;#10;    }&amp;#10;    return _pj_a;&amp;#10;}&amp;#10;.call(this).join(&quot;&quot;);&amp;#10;if ((filtered.length &gt; 0)) {&amp;#10;    textbox_answer_block1.setText(filtered[0]);&amp;#10;} else {&amp;#10;    textbox_answer_block1.setText(&quot;&quot;);&amp;#10;}&amp;#10;text2 = textbox_answer_block2.text;&amp;#10;filtered = function () {&amp;#10;    var _pj_a = [], _pj_b = text2;&amp;#10;    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c &lt; _pj_d); _pj_c += 1) {&amp;#10;        var c = _pj_b[_pj_c];&amp;#10;        if (_pj.in_es6(c, allowed_chars)) {&amp;#10;            _pj_a.push(c);&amp;#10;        }&amp;#10;    }&amp;#10;    return _pj_a;&amp;#10;}&amp;#10;.call(this).join(&quot;&quot;);&amp;#10;if ((filtered.length &gt; 0)) {&amp;#10;    textbox_answer_block2.setText(filtered[0]);&amp;#10;} else {&amp;#10;    textbox_answer_block2.setText(&quot;&quot;);&amp;#10;}&amp;#10;text3 = textbox_answer_block3.text;&amp;#10;filtered = function () {&amp;#10;    var _pj_a = [], _pj_b = text3;&amp;#10;    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c &lt; _pj_d); _pj_c += 1) {&amp;#10;        var c = _pj_b[_pj_c];&amp;#10;        if (_pj.in_es6(c, allowed_chars)) {&amp;#10;            _pj_a.push(c);&amp;#10;        }&amp;#10;    }&amp;#10;    return _pj_a;&amp;#10;}&amp;#10;.call(this).join(&quot;&quot;);&amp;#10;if ((filtered.length &gt; 0)) {&amp;#10;    textbox_answer_block3.setText(filtered[0]);&amp;#10;} else {&amp;#10;    textbox_answer_block3.setText(&quot;&quot;);&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
-        <Param val="correct_answer_primary_current = correct_answer;&amp;#10;correct_answer_primary_current = correct_answer_primary_current.toString();&amp;#10;participant_response = textbox_answer_block.text.strip();&amp;#10;num_correct = util.sum(function () {&amp;#10;    var _pj_a = [], _pj_b = util.range(3);&amp;#10;    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c &lt; _pj_d); _pj_c += 1) {&amp;#10;        var i = _pj_b[_pj_c];&amp;#10;        if ((participant_response[i] === correct_answer_primary_current[i])) {&amp;#10;            _pj_a.push(1);&amp;#10;        }&amp;#10;    }&amp;#10;    return _pj_a;&amp;#10;}&amp;#10;.call(this));&amp;#10;psychoJS.experiment.addData(&quot;num_correct&quot;, num_correct);&amp;#10;feedback_text_primary = `你答对了${num_correct}种表情的面孔数目。`;&amp;#10;psychoJS.window.mouseVisible = false;&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
-        <Param val="correct_answer_primary_current = correct_answer&amp;#10;correct_answer_primary_current = str(correct_answer_primary_current)&amp;#10;participant_response = textbox_answer_block.text.strip()&amp;#10;num_correct = sum([1 for i in range(3) if participant_response[i] == correct_answer_primary_current[i]])&amp;#10;thisExp.addData('num_correct', num_correct)&amp;#10;feedback_text_primary = f&quot;你答对了{num_correct}种表情的面孔数目。&quot;&amp;#10;win.mouseVisible = False" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="correct_answer_primary_current = correct_answer;&amp;#10;correct_answer_primary_current = correct_answer_primary_current.toString();&amp;#10;participant_response = ((textbox_answer_block1.text + textbox_answer_block2.text) + textbox_answer_block3.text);&amp;#10;num_correct = util.sum(function () {&amp;#10;    var _pj_a = [], _pj_b = util.range(3);&amp;#10;    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c &lt; _pj_d); _pj_c += 1) {&amp;#10;        var i = _pj_b[_pj_c];&amp;#10;        if ((participant_response[i] === correct_answer_primary_current[i])) {&amp;#10;            _pj_a.push(1);&amp;#10;        }&amp;#10;    }&amp;#10;    return _pj_a;&amp;#10;}&amp;#10;.call(this));&amp;#10;psychoJS.experiment.addData(&quot;num_correct&quot;, num_correct);&amp;#10;feedback_text_primary = `你答对了${num_correct}种表情的面孔数目。`;&amp;#10;psychoJS.window.mouseVisible = false;&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="correct_answer_primary_current = correct_answer&amp;#10;correct_answer_primary_current = str(correct_answer_primary_current)&amp;#10;participant_response = textbox_answer_block1.text + textbox_answer_block2.text + textbox_answer_block3.text&amp;#10;num_correct = sum([1 for i in range(3) if participant_response[i] == correct_answer_primary_current[i]])&amp;#10;thisExp.addData('num_correct', num_correct)&amp;#10;feedback_text_primary = f&quot;你答对了{num_correct}种表情的面孔数目。&quot;&amp;#10;win.mouseVisible = False" valType="extendedCode" updates="constant" name="End Routine"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="code_answer_block" valType="code" updates="None" name="name"/>
       </CodeComponent>

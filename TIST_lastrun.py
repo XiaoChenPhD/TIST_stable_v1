@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on Fri  1 Aug 14:43:39 2025
+    on Fri  1 Aug 17:48:53 2025
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -492,27 +492,59 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "answer_block_practice" ---
     text_answer_block_practice = visual.TextStim(win=win, name='text_answer_block_practice',
-        text='请按如下顺序输入答案（数字中间无间隔或任何字符）：\n\n快乐-平静-悲伤',
+        text='请按如下顺序在方框内输入答案：',
         font='Noto Sans SC',
         pos=(0, 0.3), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=0.0);
-    textbox_answer_block_practice = visual.TextBox2(
-         win, text=None, placeholder=None, font='Noto Sans SC',
-         ori=0.0, pos=(0, 0), draggable=False,      letterHeight=0.05,
-         size=(0.5, 0.5), borderWidth=2.0,
+    textbox_answer_block_practice1 = visual.TextBox2(
+         win, text=None, placeholder='快乐', font='Noto Sans SC',
+         ori=0.0, pos=(-0.15, 0), draggable=False,      letterHeight=0.045,
+         size=(0.1, 0.08), borderWidth=2.0,
          color='white', colorSpace='rgb',
          opacity=None,
          bold=False, italic=False,
          lineSpacing=1.0, speechPoint=None,
          padding=0.0, alignment='center',
          anchor='center', overflow='visible',
-         fillColor=None, borderColor=None,
+         fillColor=None, borderColor=[1.0000, 1.0000, 1.0000],
          flipHoriz=False, flipVert=False, languageStyle='LTR',
          editable=True,
-         name='textbox_answer_block_practice',
+         name='textbox_answer_block_practice1',
          depth=-1, autoLog=True,
+    )
+    textbox_answer_block_practice2 = visual.TextBox2(
+         win, text=None, placeholder='平静', font='Noto Sans SC',
+         ori=0.0, pos=(0, 0), draggable=False,      letterHeight=0.045,
+         size=(0.1, 0.08), borderWidth=2.0,
+         color='white', colorSpace='rgb',
+         opacity=None,
+         bold=False, italic=False,
+         lineSpacing=1.0, speechPoint=None,
+         padding=0.0, alignment='center',
+         anchor='center', overflow='visible',
+         fillColor=None, borderColor=[1.0000, 1.0000, 1.0000],
+         flipHoriz=False, flipVert=False, languageStyle='LTR',
+         editable=True,
+         name='textbox_answer_block_practice2',
+         depth=-2, autoLog=True,
+    )
+    textbox_answer_block_practice3 = visual.TextBox2(
+         win, text=None, placeholder='悲伤', font='Noto Sans SC',
+         ori=0.0, pos=(0.15, 0), draggable=False,      letterHeight=0.045,
+         size=(0.1, 0.08), borderWidth=2.0,
+         color='white', colorSpace='rgb',
+         opacity=None,
+         bold=False, italic=False,
+         lineSpacing=1.0, speechPoint=None,
+         padding=0.0, alignment='center',
+         anchor='center', overflow='visible',
+         fillColor=None, borderColor=[1.0000, 1.0000, 1.0000],
+         flipHoriz=False, flipVert=False, languageStyle='LTR',
+         editable=True,
+         name='textbox_answer_block_practice3',
+         depth=-3, autoLog=True,
     )
     button_text_block_practice = visual.TextStim(win=win, name='button_text_block_practice',
         text='点击这里继续',
@@ -520,7 +552,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         pos=(0, -0.35), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
-        depth=-2.0);
+        depth=-4.0);
     mouse_block_practice = event.Mouse(win=win)
     x, y = [None, None]
     mouse_block_practice.mouseClock = core.Clock()
@@ -633,27 +665,59 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "answer_block" ---
     text_answer_block = visual.TextStim(win=win, name='text_answer_block',
-        text='请按如下顺序输入答案（数字中间无间隔或任何字符）：\n\n快乐-平静-悲伤',
+        text='请按如下顺序在方框内输入答案：',
         font='Noto Sans SC',
         pos=(0, 0.3), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=0.0);
-    textbox_answer_block = visual.TextBox2(
-         win, text=None, placeholder=None, font='Noto Sans SC',
-         ori=0.0, pos=(0, 0), draggable=False,      letterHeight=0.05,
-         size=(0.5, 0.5), borderWidth=2.0,
+    textbox_answer_block1 = visual.TextBox2(
+         win, text=None, placeholder='快乐', font='Noto Sans SC',
+         ori=0.0, pos=(-0.15, 0), draggable=False,      letterHeight=0.045,
+         size=(0.1, 0.08), borderWidth=2.0,
          color='white', colorSpace='rgb',
          opacity=None,
          bold=False, italic=False,
          lineSpacing=1.0, speechPoint=None,
          padding=0.0, alignment='center',
          anchor='center', overflow='visible',
-         fillColor=None, borderColor=None,
+         fillColor=None, borderColor=[1.0000, 1.0000, 1.0000],
          flipHoriz=False, flipVert=False, languageStyle='LTR',
          editable=True,
-         name='textbox_answer_block',
+         name='textbox_answer_block1',
          depth=-1, autoLog=True,
+    )
+    textbox_answer_block2 = visual.TextBox2(
+         win, text=None, placeholder='平静', font='Noto Sans SC',
+         ori=0.0, pos=(0, 0), draggable=False,      letterHeight=0.045,
+         size=(0.1, 0.08), borderWidth=2.0,
+         color='white', colorSpace='rgb',
+         opacity=None,
+         bold=False, italic=False,
+         lineSpacing=1.0, speechPoint=None,
+         padding=0.0, alignment='center',
+         anchor='center', overflow='visible',
+         fillColor=None, borderColor=[1.0000, 1.0000, 1.0000],
+         flipHoriz=False, flipVert=False, languageStyle='LTR',
+         editable=True,
+         name='textbox_answer_block2',
+         depth=-2, autoLog=True,
+    )
+    textbox_answer_block3 = visual.TextBox2(
+         win, text=None, placeholder='悲伤', font='Noto Sans SC',
+         ori=0.0, pos=(0.15, 0), draggable=False,      letterHeight=0.045,
+         size=(0.1, 0.08), borderWidth=2.0,
+         color='white', colorSpace='rgb',
+         opacity=None,
+         bold=False, italic=False,
+         lineSpacing=1.0, speechPoint=None,
+         padding=0.0, alignment='center',
+         anchor='center', overflow='visible',
+         fillColor=None, borderColor=[1.0000, 1.0000, 1.0000],
+         flipHoriz=False, flipVert=False, languageStyle='LTR',
+         editable=True,
+         name='textbox_answer_block3',
+         depth=-3, autoLog=True,
     )
     button_answer_block = visual.TextStim(win=win, name='button_answer_block',
         text='点击这里继续',
@@ -661,7 +725,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         pos=(0, -0.35), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
-        depth=-2.0);
+        depth=-4.0);
     mouse_answer_block = event.Mouse(win=win)
     x, y = [None, None]
     mouse_answer_block.mouseClock = core.Clock()
@@ -1756,12 +1820,14 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # create an object to store info about Routine answer_block_practice
         answer_block_practice = data.Routine(
             name='answer_block_practice',
-            components=[text_answer_block_practice, textbox_answer_block_practice, button_text_block_practice, mouse_block_practice],
+            components=[text_answer_block_practice, textbox_answer_block_practice1, textbox_answer_block_practice2, textbox_answer_block_practice3, button_text_block_practice, mouse_block_practice],
         )
         answer_block_practice.status = NOT_STARTED
         continueRoutine = True
         # update component parameters for each repeat
-        textbox_answer_block_practice.reset()
+        textbox_answer_block_practice1.reset()
+        textbox_answer_block_practice2.reset()
+        textbox_answer_block_practice3.reset()
         # setup some python lists for storing info about the mouse_block_practice
         mouse_block_practice.x = []
         mouse_block_practice.y = []
@@ -1826,23 +1892,63 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 # update params
                 pass
             
-            # *textbox_answer_block_practice* updates
+            # *textbox_answer_block_practice1* updates
             
-            # if textbox_answer_block_practice is starting this frame...
-            if textbox_answer_block_practice.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # if textbox_answer_block_practice1 is starting this frame...
+            if textbox_answer_block_practice1.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
-                textbox_answer_block_practice.frameNStart = frameN  # exact frame index
-                textbox_answer_block_practice.tStart = t  # local t and not account for scr refresh
-                textbox_answer_block_practice.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(textbox_answer_block_practice, 'tStartRefresh')  # time at next scr refresh
+                textbox_answer_block_practice1.frameNStart = frameN  # exact frame index
+                textbox_answer_block_practice1.tStart = t  # local t and not account for scr refresh
+                textbox_answer_block_practice1.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(textbox_answer_block_practice1, 'tStartRefresh')  # time at next scr refresh
                 # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'textbox_answer_block_practice.started')
+                thisExp.timestampOnFlip(win, 'textbox_answer_block_practice1.started')
                 # update status
-                textbox_answer_block_practice.status = STARTED
-                textbox_answer_block_practice.setAutoDraw(True)
+                textbox_answer_block_practice1.status = STARTED
+                textbox_answer_block_practice1.setAutoDraw(True)
             
-            # if textbox_answer_block_practice is active this frame...
-            if textbox_answer_block_practice.status == STARTED:
+            # if textbox_answer_block_practice1 is active this frame...
+            if textbox_answer_block_practice1.status == STARTED:
+                # update params
+                pass
+            
+            # *textbox_answer_block_practice2* updates
+            
+            # if textbox_answer_block_practice2 is starting this frame...
+            if textbox_answer_block_practice2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                textbox_answer_block_practice2.frameNStart = frameN  # exact frame index
+                textbox_answer_block_practice2.tStart = t  # local t and not account for scr refresh
+                textbox_answer_block_practice2.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(textbox_answer_block_practice2, 'tStartRefresh')  # time at next scr refresh
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'textbox_answer_block_practice2.started')
+                # update status
+                textbox_answer_block_practice2.status = STARTED
+                textbox_answer_block_practice2.setAutoDraw(True)
+            
+            # if textbox_answer_block_practice2 is active this frame...
+            if textbox_answer_block_practice2.status == STARTED:
+                # update params
+                pass
+            
+            # *textbox_answer_block_practice3* updates
+            
+            # if textbox_answer_block_practice3 is starting this frame...
+            if textbox_answer_block_practice3.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                textbox_answer_block_practice3.frameNStart = frameN  # exact frame index
+                textbox_answer_block_practice3.tStart = t  # local t and not account for scr refresh
+                textbox_answer_block_practice3.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(textbox_answer_block_practice3, 'tStartRefresh')  # time at next scr refresh
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'textbox_answer_block_practice3.started')
+                # update status
+                textbox_answer_block_practice3.status = STARTED
+                textbox_answer_block_practice3.setAutoDraw(True)
+            
+            # if textbox_answer_block_practice3 is active this frame...
+            if textbox_answer_block_practice3.status == STARTED:
                 # update params
                 pass
             
@@ -1907,14 +2013,27 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                             continueRoutine = False  # end routine on response
             # Run 'Each Frame' code from code
             allowed_chars = '0123456789'
-            text = textbox_answer_block_practice.text
-            filtered_text = ''
-            for i in range(len(text)):
-                if text[i] in allowed_chars:
-                    filtered_text += text[i]
-                if len(filtered_text) >= 3:
-                    break  # stop after collecting 3 digits
-            textbox_answer_block_practice.setText(filtered_text)
+            
+            text1 = textbox_answer_block_practice1.text
+            filtered = ''.join([c for c in text1 if c in allowed_chars])
+            if len(filtered) > 0:
+                textbox_answer_block_practice1.setText(filtered[0])
+            else:
+                textbox_answer_block_practice1.setText('')
+                
+            text2 = textbox_answer_block_practice2.text
+            filtered = ''.join([c for c in text2 if c in allowed_chars])
+            if len(filtered) > 0:
+                textbox_answer_block_practice2.setText(filtered[0])
+            else:
+                textbox_answer_block_practice2.setText('')
+                
+            text3 = textbox_answer_block_practice3.text
+            filtered = ''.join([c for c in text3 if c in allowed_chars])
+            if len(filtered) > 0:
+                textbox_answer_block_practice3.setText(filtered[0])
+            else:
+                textbox_answer_block_practice3.setText('')
             
             # check for quit (typically the Esc key)
             if defaultKeyboard.getKeys(keyList=["escape"]):
@@ -1955,7 +2074,9 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         answer_block_practice.tStop = globalClock.getTime(format='float')
         answer_block_practice.tStopRefresh = tThisFlipGlobal
         thisExp.addData('answer_block_practice.stopped', answer_block_practice.tStop)
-        loop_practice.addData('textbox_answer_block_practice.text',textbox_answer_block_practice.text)
+        loop_practice.addData('textbox_answer_block_practice1.text',textbox_answer_block_practice1.text)
+        loop_practice.addData('textbox_answer_block_practice2.text',textbox_answer_block_practice2.text)
+        loop_practice.addData('textbox_answer_block_practice3.text',textbox_answer_block_practice3.text)
         # store data for loop_practice (TrialHandler)
         loop_practice.addData('mouse_block_practice.x', mouse_block_practice.x)
         loop_practice.addData('mouse_block_practice.y', mouse_block_practice.y)
@@ -1967,7 +2088,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # Run 'End Routine' code from code
         correct_answer_current = correct_answer
         correct_answer_current = str(correct_answer_current)
-        participant_response = textbox_answer_block_practice.text.strip()
+        participant_response = textbox_answer_block_practice1.text + textbox_answer_block_practice2.text + textbox_answer_block_practice3.text
         num_correct = sum([1 for i in range(3) if participant_response[i] == correct_answer_current[i]])
         thisExp.addData('num_correct', num_correct)
         feedback_text = f"你答对了{num_correct}种表情的面孔数目。"
@@ -3390,12 +3511,14 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # create an object to store info about Routine answer_block
         answer_block = data.Routine(
             name='answer_block',
-            components=[text_answer_block, textbox_answer_block, button_answer_block, mouse_answer_block],
+            components=[text_answer_block, textbox_answer_block1, textbox_answer_block2, textbox_answer_block3, button_answer_block, mouse_answer_block],
         )
         answer_block.status = NOT_STARTED
         continueRoutine = True
         # update component parameters for each repeat
-        textbox_answer_block.reset()
+        textbox_answer_block1.reset()
+        textbox_answer_block2.reset()
+        textbox_answer_block3.reset()
         # setup some python lists for storing info about the mouse_answer_block
         mouse_answer_block.x = []
         mouse_answer_block.y = []
@@ -3460,23 +3583,63 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 # update params
                 pass
             
-            # *textbox_answer_block* updates
+            # *textbox_answer_block1* updates
             
-            # if textbox_answer_block is starting this frame...
-            if textbox_answer_block.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # if textbox_answer_block1 is starting this frame...
+            if textbox_answer_block1.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
-                textbox_answer_block.frameNStart = frameN  # exact frame index
-                textbox_answer_block.tStart = t  # local t and not account for scr refresh
-                textbox_answer_block.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(textbox_answer_block, 'tStartRefresh')  # time at next scr refresh
+                textbox_answer_block1.frameNStart = frameN  # exact frame index
+                textbox_answer_block1.tStart = t  # local t and not account for scr refresh
+                textbox_answer_block1.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(textbox_answer_block1, 'tStartRefresh')  # time at next scr refresh
                 # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'textbox_answer_block.started')
+                thisExp.timestampOnFlip(win, 'textbox_answer_block1.started')
                 # update status
-                textbox_answer_block.status = STARTED
-                textbox_answer_block.setAutoDraw(True)
+                textbox_answer_block1.status = STARTED
+                textbox_answer_block1.setAutoDraw(True)
             
-            # if textbox_answer_block is active this frame...
-            if textbox_answer_block.status == STARTED:
+            # if textbox_answer_block1 is active this frame...
+            if textbox_answer_block1.status == STARTED:
+                # update params
+                pass
+            
+            # *textbox_answer_block2* updates
+            
+            # if textbox_answer_block2 is starting this frame...
+            if textbox_answer_block2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                textbox_answer_block2.frameNStart = frameN  # exact frame index
+                textbox_answer_block2.tStart = t  # local t and not account for scr refresh
+                textbox_answer_block2.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(textbox_answer_block2, 'tStartRefresh')  # time at next scr refresh
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'textbox_answer_block2.started')
+                # update status
+                textbox_answer_block2.status = STARTED
+                textbox_answer_block2.setAutoDraw(True)
+            
+            # if textbox_answer_block2 is active this frame...
+            if textbox_answer_block2.status == STARTED:
+                # update params
+                pass
+            
+            # *textbox_answer_block3* updates
+            
+            # if textbox_answer_block3 is starting this frame...
+            if textbox_answer_block3.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                textbox_answer_block3.frameNStart = frameN  # exact frame index
+                textbox_answer_block3.tStart = t  # local t and not account for scr refresh
+                textbox_answer_block3.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(textbox_answer_block3, 'tStartRefresh')  # time at next scr refresh
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'textbox_answer_block3.started')
+                # update status
+                textbox_answer_block3.status = STARTED
+                textbox_answer_block3.setAutoDraw(True)
+            
+            # if textbox_answer_block3 is active this frame...
+            if textbox_answer_block3.status == STARTED:
                 # update params
                 pass
             
@@ -3541,14 +3704,27 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                             continueRoutine = False  # end routine on response
             # Run 'Each Frame' code from code_answer_block
             allowed_chars = '0123456789'
-            text = textbox_answer_block.text
-            filtered_text = ''
-            for i in range(len(text)):
-                if text[i] in allowed_chars:
-                    filtered_text += text[i]
-                if len(filtered_text) >= 3:
-                    break  # stop after collecting 3 digits
-            textbox_answer_block.setText(filtered_text)
+            
+            text1 = textbox_answer_block1.text
+            filtered = ''.join([c for c in text1 if c in allowed_chars])
+            if len(filtered) > 0:
+                textbox_answer_block1.setText(filtered[0])
+            else:
+                textbox_answer_block1.setText('')
+                
+            text2 = textbox_answer_block2.text
+            filtered = ''.join([c for c in text2 if c in allowed_chars])
+            if len(filtered) > 0:
+                textbox_answer_block2.setText(filtered[0])
+            else:
+                textbox_answer_block2.setText('')
+                
+            text3 = textbox_answer_block3.text
+            filtered = ''.join([c for c in text3 if c in allowed_chars])
+            if len(filtered) > 0:
+                textbox_answer_block3.setText(filtered[0])
+            else:
+                textbox_answer_block3.setText('')
             
             # check for quit (typically the Esc key)
             if defaultKeyboard.getKeys(keyList=["escape"]):
@@ -3589,7 +3765,9 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         answer_block.tStop = globalClock.getTime(format='float')
         answer_block.tStopRefresh = tThisFlipGlobal
         thisExp.addData('answer_block.stopped', answer_block.tStop)
-        loop_primary.addData('textbox_answer_block.text',textbox_answer_block.text)
+        loop_primary.addData('textbox_answer_block1.text',textbox_answer_block1.text)
+        loop_primary.addData('textbox_answer_block2.text',textbox_answer_block2.text)
+        loop_primary.addData('textbox_answer_block3.text',textbox_answer_block3.text)
         # store data for loop_primary (TrialHandler)
         loop_primary.addData('mouse_answer_block.x', mouse_answer_block.x)
         loop_primary.addData('mouse_answer_block.y', mouse_answer_block.y)
@@ -3601,7 +3779,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # Run 'End Routine' code from code_answer_block
         correct_answer_primary_current = correct_answer
         correct_answer_primary_current = str(correct_answer_primary_current)
-        participant_response = textbox_answer_block.text.strip()
+        participant_response = textbox_answer_block1.text + textbox_answer_block2.text + textbox_answer_block3.text
         num_correct = sum([1 for i in range(3) if participant_response[i] == correct_answer_primary_current[i]])
         thisExp.addData('num_correct', num_correct)
         feedback_text_primary = f"你答对了{num_correct}种表情的面孔数目。"
